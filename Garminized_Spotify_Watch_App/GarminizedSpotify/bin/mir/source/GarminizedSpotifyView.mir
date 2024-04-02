@@ -1,0 +1,144 @@
+[ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyView.mc"; @line = 1; ]
+import Toybox.Graphics;
+[ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyView.mc"; @line = 2; ]
+import Toybox.WatchUi;
+[ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyView.mc"; @line = 3; ]
+import Toybox.Lang;
+[ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyView.mc"; @line = 6; ]
+class GarminizedSpotifyView extends WatchUi.View{
+    [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyView.mc"; @line = 6; ]
+    <init> {
+    }
+    [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyView.mc"; @line = 6; ]
+    static
+    <init> {
+    }
+    [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyView.mc"; @line = 7; @position = 8; ]
+    var _player;
+    [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyView.mc"; @line = 10; ]
+    function initialize(player as Player) as Void {
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyView_mc_10_42_start:
+[ "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyView.mc" 11 8 ]
+        %tmp.2 = lgetv %player;
+        putv self :_player %tmp.2;
+[ "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyView.mc" 12 8 ]
+        %tmp.4 = getv ? :View;
+        %tmp.5 = getv function %tmp.4 :initialize;
+        invoke %tmp.4 %tmp.5();
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyView_mc_10_42_stop:
+    }
+    [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyView.mc"; @line = 16; ]
+    function onLayout(dc as Dc) as Void {
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyView_mc_16_40_start:
+[ "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyView.mc" 22 8 ]
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyView_mc_22_8_if_stmt:
+        %tmp.2 = lgetv %dc;
+        %tmp.4 = const :setAntiAlias;
+        %tmp.5 = canhazplz %tmp.2 %tmp.4;
+        bf %tmp.5 @F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyView_mc_22_8_if_end;
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyView_mc_22_8_if_true:
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyView_mc_22_33_start:
+[ "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyView.mc" 23 12 ]
+        %tmp.6 = lgetv %dc;
+        %tmp.7 = as %tmp.6 { (interface { var setAntiAlias; }) };
+        %tmp.8 = getv function %tmp.7 :setAntiAlias;
+        %tmp.9 = true;
+        invoke %tmp.7 %tmp.8(%tmp.9);
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyView_mc_22_33_stop:
+        goto @F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyView_mc_22_8_if_end;
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyView_mc_22_8_if_end:
+[ "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyView.mc" 25 8 ]
+        %tmp.10 = self;
+        %tmp.11 = getv function %tmp.10 :setLayout;
+        %tmp.13 = getv ? :_player;
+        %tmp.14 = getv function %tmp.13 :createInterface;
+        %tmp.16 = lgetv %dc;
+        %tmp.17 = invoke %tmp.13 %tmp.14(%tmp.16);
+        invoke %tmp.10 %tmp.11(%tmp.17);
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyView_mc_16_40_stop:
+    }
+    [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyView.mc"; @line = 64; ]
+    function onShow() as Void {
+    }
+    [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyView.mc"; @line = 68; ]
+    function onUpdate(dc as Dc) as Void {
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyView_mc_68_40_start:
+[ "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyView.mc" 70 8 ]
+        %tmp.2 = getv ? :View;
+        %tmp.3 = getv function %tmp.2 :onUpdate;
+        %tmp.5 = lgetv %dc;
+        invoke %tmp.2 %tmp.3(%tmp.5);
+[ "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyView.mc" 71 8 ]
+        %tmp.6 = lgetv %dc;
+        %tmp.7 = getv function %tmp.6 :setColor;
+        %tmp.8 = getm $.Toybox.Graphics;
+        %tmp.9 = getv %tmp.8 :COLOR_LT_GRAY;
+        %tmp.10 = getm $.Toybox.Graphics;
+        %tmp.11 = getv %tmp.10 :COLOR_BLACK;
+        invoke %tmp.6 %tmp.7(%tmp.9, %tmp.11);
+[ "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyView.mc" 72 8 ]
+        %tmp.12 = lgetv %dc;
+        %tmp.13 = getv function %tmp.12 :fillRoundedRectangle;
+        %tmp.14 = 50;
+        %tmp.15 = lgetv %dc;
+        %tmp.16 = getv function %tmp.15 :getHeight;
+        %tmp.17 = invoke %tmp.15 %tmp.16();
+        %tmp.18 = 2;
+        %tmp.19 = div %tmp.17 %tmp.18;
+        %tmp.21 = getv ? :_player;
+        %tmp.22 = getv %tmp.21 :progressBarWidth;
+        %tmp.23 = 10;
+        %tmp.24 = 5;
+        invoke %tmp.12 %tmp.13(%tmp.14, %tmp.19, %tmp.22, %tmp.23, %tmp.24);
+[ "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyView.mc" 73 8 ]
+        %tmp.25 = lgetv %dc;
+        %tmp.26 = getv function %tmp.25 :setColor;
+        %tmp.27 = getm $.Toybox.Graphics;
+        %tmp.28 = getv %tmp.27 :COLOR_DK_GREEN;
+        %tmp.29 = getm $.Toybox.Graphics;
+        %tmp.30 = getv %tmp.29 :COLOR_BLACK;
+        invoke %tmp.25 %tmp.26(%tmp.28, %tmp.30);
+[ "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyView.mc" 74 8 ]
+        [ "F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyView_mc_68_40_start" "F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyView_mc_68_40_stop" ]
+        %passed.1 = local;
+        %tmp.32 = getv ? :_player;
+        %tmp.33 = getv function %tmp.32 :getProgressBarPassed;
+        %tmp.34 = invoke %tmp.32 %tmp.33();
+        lputv %passed.1 %tmp.34;
+[ "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyView.mc" 75 8 ]
+        %tmp.35 = lgetv %dc;
+        %tmp.36 = getv function %tmp.35 :fillRoundedRectangle;
+        %tmp.37 = 50;
+        %tmp.38 = lgetv %dc;
+        %tmp.39 = getv function %tmp.38 :getHeight;
+        %tmp.40 = invoke %tmp.38 %tmp.39();
+        %tmp.41 = 2;
+        %tmp.42 = div %tmp.40 %tmp.41;
+        %tmp.44 = lgetv %passed.1;
+        %tmp.45 = 10;
+        %tmp.46 = 5;
+        invoke %tmp.35 %tmp.36(%tmp.37, %tmp.42, %tmp.44, %tmp.45, %tmp.46);
+[ "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyView.mc" 76 8 ]
+        %tmp.47 = lgetv %dc;
+        %tmp.48 = getv function %tmp.47 :fillCircle;
+        %tmp.49 = 50;
+        %tmp.51 = lgetv %passed.1;
+        %tmp.52 = add %tmp.49 %tmp.51;
+        %tmp.53 = lgetv %dc;
+        %tmp.54 = getv function %tmp.53 :getHeight;
+        %tmp.55 = invoke %tmp.53 %tmp.54();
+        %tmp.56 = 2;
+        %tmp.57 = div %tmp.55 %tmp.56;
+        %tmp.58 = 5;
+        %tmp.59 = add %tmp.57 %tmp.58;
+        %tmp.60 = 7;
+        invoke %tmp.47 %tmp.48(%tmp.52, %tmp.59, %tmp.60);
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyView_mc_68_40_stop:
+    }
+    [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyView.mc"; @line = 85; ]
+    function onHide() as Void {
+    }
+}
+[ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyView.mc"; @line = 1; ]
+<init> {
+}

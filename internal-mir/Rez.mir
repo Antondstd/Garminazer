@@ -1,0 +1,2517 @@
+[ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 1; ]
+import Toybox.Lang;
+[ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 2; ]
+using Toybox.WatchUi;
+[ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 3; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 4; ]
+using Toybox.Graphics;
+[ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 5; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 7; ]
+module Rez {
+    [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 8; ]
+    module Drawables {
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 8; ]
+        <init> {
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 9; @position = 27; initialized = true; ]
+        var play as Symbol;
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 10; @position = 27; initialized = true; ]
+        var pause as Symbol;
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 11; @position = 27; initialized = true; ]
+        var next as Symbol;
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 12; @position = 27; initialized = true; ]
+        var previous as Symbol;
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 13; @position = 27; initialized = true; ]
+        var like as Symbol;
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 14; @position = 27; initialized = true; ]
+        var liked as Symbol;
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 15; @position = 27; initialized = true; ]
+        var repeat as Symbol;
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 16; @position = 27; initialized = true; ]
+        var monkey as Symbol;
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 17; @position = 27; initialized = true; ]
+        var songCover as Symbol;
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 18; @position = 27; initialized = true; ]
+        var songCover2 as Symbol;
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 19; @position = 27; initialized = true; ]
+        var LauncherIcon as Symbol;
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 21; ]
+        class shapes extends WatchUi.Drawable{
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 21; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 21; ]
+            static
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 23; ]
+            function initialize() as Void {
+f_Programming_Projects_Garminazer_gen_006_B4313_00_source_Rez_mcgen_23_34_start:
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 24 16 ]
+                %tmp.2 = getv ? :Drawable;
+                %tmp.3 = getv function %tmp.2 :initialize;
+                %tmp.4 = newd 0;
+                invoke %tmp.2 %tmp.3(%tmp.4);
+f_Programming_Projects_Garminazer_gen_006_B4313_00_source_Rez_mcgen_23_34_stop:
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 27; ]
+            function draw(dc as Graphics.Dc) as Void {
+f_Programming_Projects_Garminazer_gen_006_B4313_00_source_Rez_mcgen_27_53_start:
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 28 16 ]
+f_Programming_Projects_Garminazer_gen_006_B4313_00_source_Rez_mcgen_28_16_if_stmt:
+                %tmp.2 = lgetv %self;
+                %tmp.4 = const :isVisible;
+                %tmp.5 = canhazplz %tmp.2 %tmp.4;
+                bf %tmp.5 @f_Programming_Projects_Garminazer_gen_006_B4313_00_source_Rez_mcgen_28_16_if_end;
+f_Programming_Projects_Garminazer_gen_006_B4313_00_source_Rez_mcgen_28_16_if_true:
+f_Programming_Projects_Garminazer_gen_006_B4313_00_source_Rez_mcgen_28_41_start:
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 29 20 ]
+f_Programming_Projects_Garminazer_gen_006_B4313_00_source_Rez_mcgen_29_20_if_stmt:
+                %tmp.6 = lgetv %self;
+                %tmp.7 = as %tmp.6 { (interface { var isVisible; }) };
+                %tmp.8 = getv %tmp.7 :isVisible;
+                %tmp.9 = not %tmp.8;
+                bf %tmp.9 @f_Programming_Projects_Garminazer_gen_006_B4313_00_source_Rez_mcgen_29_20_if_end;
+f_Programming_Projects_Garminazer_gen_006_B4313_00_source_Rez_mcgen_29_20_if_true:
+f_Programming_Projects_Garminazer_gen_006_B4313_00_source_Rez_mcgen_29_41_start:
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 30 24 ]
+                ret ?;
+f_Programming_Projects_Garminazer_gen_006_B4313_00_source_Rez_mcgen_29_41_stop:
+                goto @f_Programming_Projects_Garminazer_gen_006_B4313_00_source_Rez_mcgen_29_20_if_end;
+f_Programming_Projects_Garminazer_gen_006_B4313_00_source_Rez_mcgen_29_20_if_end:
+f_Programming_Projects_Garminazer_gen_006_B4313_00_source_Rez_mcgen_28_41_stop:
+                goto @f_Programming_Projects_Garminazer_gen_006_B4313_00_source_Rez_mcgen_28_16_if_end;
+f_Programming_Projects_Garminazer_gen_006_B4313_00_source_Rez_mcgen_28_16_if_end:
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 34 16 ]
+                %tmp.10 = lgetv %dc;
+                %tmp.11 = getv function %tmp.10 :setColor;
+                %tmp.12 = getm $.Toybox.Graphics;
+                %tmp.13 = getv %tmp.12 :COLOR_TRANSPARENT;
+                %tmp.14 = getm $.Toybox.Graphics;
+                %tmp.15 = getv %tmp.14 :COLOR_TRANSPARENT;
+                invoke %tmp.10 %tmp.11(%tmp.13, %tmp.15);
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 35 16 ]
+                %tmp.16 = lgetv %dc;
+                %tmp.17 = getv function %tmp.16 :fillRectangle;
+                %tmp.18 = 0;
+                %tmp.19 = 0;
+                %tmp.20 = add %tmp.18 %tmp.19;
+                %tmp.21 = 0;
+                %tmp.22 = 0;
+                %tmp.23 = add %tmp.21 %tmp.22;
+                %tmp.24 = 416;
+                %tmp.25 = 0;
+                %tmp.26 = sub %tmp.24 %tmp.25;
+                %tmp.27 = 416;
+                %tmp.28 = 0;
+                %tmp.29 = sub %tmp.27 %tmp.28;
+                invoke %tmp.16 %tmp.17(%tmp.20, %tmp.23, %tmp.26, %tmp.29);
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 36 16 ]
+                %tmp.30 = lgetv %dc;
+                %tmp.31 = getv function %tmp.30 :setColor;
+                %tmp.32 = getm $.Toybox.Graphics;
+                %tmp.33 = getv %tmp.32 :COLOR_TRANSPARENT;
+                %tmp.34 = getm $.Toybox.Graphics;
+                %tmp.35 = getv %tmp.34 :COLOR_TRANSPARENT;
+                invoke %tmp.30 %tmp.31(%tmp.33, %tmp.35);
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 38 16 ]
+                %tmp.36 = lgetv %dc;
+                %tmp.37 = getv function %tmp.36 :setColor;
+                %tmp.38 = getm $.Toybox.Graphics;
+                %tmp.39 = getv %tmp.38 :COLOR_RED;
+                %tmp.40 = getm $.Toybox.Graphics;
+                %tmp.41 = getv %tmp.40 :COLOR_TRANSPARENT;
+                invoke %tmp.36 %tmp.37(%tmp.39, %tmp.41);
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 39 16 ]
+                %tmp.42 = lgetv %dc;
+                %tmp.43 = getv function %tmp.42 :fillCircle;
+                %tmp.44 = 0;
+                %tmp.45 = 0;
+                %tmp.46 = add %tmp.44 %tmp.45;
+                %tmp.47 = 78;
+                %tmp.48 = add %tmp.46 %tmp.47;
+                %tmp.49 = 0;
+                %tmp.50 = 0;
+                %tmp.51 = add %tmp.49 %tmp.50;
+                %tmp.52 = 160;
+                %tmp.53 = add %tmp.51 %tmp.52;
+                %tmp.54 = 8;
+                %tmp.55 = 0;
+                %tmp.56 = sub %tmp.54 %tmp.55;
+                invoke %tmp.42 %tmp.43(%tmp.48, %tmp.53, %tmp.56);
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 40 16 ]
+                %tmp.57 = lgetv %dc;
+                %tmp.58 = getv function %tmp.57 :setColor;
+                %tmp.59 = getm $.Toybox.Graphics;
+                %tmp.60 = getv %tmp.59 :COLOR_BLUE;
+                %tmp.61 = getm $.Toybox.Graphics;
+                %tmp.62 = getv %tmp.61 :COLOR_TRANSPARENT;
+                invoke %tmp.57 %tmp.58(%tmp.60, %tmp.62);
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 41 16 ]
+                %tmp.63 = lgetv %dc;
+                %tmp.64 = getv function %tmp.63 :fillRectangle;
+                %tmp.65 = 0;
+                %tmp.66 = 0;
+                %tmp.67 = add %tmp.65 %tmp.66;
+                %tmp.68 = 51;
+                %tmp.69 = add %tmp.67 %tmp.68;
+                %tmp.70 = 0;
+                %tmp.71 = add %tmp.69 %tmp.70;
+                %tmp.72 = 0;
+                %tmp.73 = 0;
+                %tmp.74 = add %tmp.72 %tmp.73;
+                %tmp.75 = 137;
+                %tmp.76 = add %tmp.74 %tmp.75;
+                %tmp.77 = 0;
+                %tmp.78 = add %tmp.76 %tmp.77;
+                %tmp.79 = 76;
+                %tmp.80 = 2;
+                %tmp.81 = 0;
+                %tmp.82 = mul %tmp.80 %tmp.81;
+                %tmp.83 = sub %tmp.79 %tmp.82;
+                %tmp.84 = 20;
+                %tmp.85 = 2;
+                %tmp.86 = 0;
+                %tmp.87 = mul %tmp.85 %tmp.86;
+                %tmp.88 = sub %tmp.84 %tmp.87;
+                invoke %tmp.63 %tmp.64(%tmp.71, %tmp.78, %tmp.83, %tmp.88);
+f_Programming_Projects_Garminazer_gen_006_B4313_00_source_Rez_mcgen_27_53_stop:
+            }
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 45; ]
+        class train extends WatchUi.Drawable{
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 45; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 45; ]
+            static
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 47; ]
+            function initialize() as Void {
+f_Programming_Projects_Garminazer_gen_006_B4313_00_source_Rez_mcgen_47_34_start:
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 48 16 ]
+                %tmp.2 = getv ? :Drawable;
+                %tmp.3 = getv function %tmp.2 :initialize;
+                %tmp.4 = newd 0;
+                invoke %tmp.2 %tmp.3(%tmp.4);
+f_Programming_Projects_Garminazer_gen_006_B4313_00_source_Rez_mcgen_47_34_stop:
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 51; ]
+            function draw(dc as Graphics.Dc) as Void {
+f_Programming_Projects_Garminazer_gen_006_B4313_00_source_Rez_mcgen_51_53_start:
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 52 16 ]
+f_Programming_Projects_Garminazer_gen_006_B4313_00_source_Rez_mcgen_52_16_if_stmt:
+                %tmp.2 = lgetv %self;
+                %tmp.4 = const :isVisible;
+                %tmp.5 = canhazplz %tmp.2 %tmp.4;
+                bf %tmp.5 @f_Programming_Projects_Garminazer_gen_006_B4313_00_source_Rez_mcgen_52_16_if_end;
+f_Programming_Projects_Garminazer_gen_006_B4313_00_source_Rez_mcgen_52_16_if_true:
+f_Programming_Projects_Garminazer_gen_006_B4313_00_source_Rez_mcgen_52_41_start:
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 53 20 ]
+f_Programming_Projects_Garminazer_gen_006_B4313_00_source_Rez_mcgen_53_20_if_stmt:
+                %tmp.6 = lgetv %self;
+                %tmp.7 = as %tmp.6 { (interface { var isVisible; }) };
+                %tmp.8 = getv %tmp.7 :isVisible;
+                %tmp.9 = not %tmp.8;
+                bf %tmp.9 @f_Programming_Projects_Garminazer_gen_006_B4313_00_source_Rez_mcgen_53_20_if_end;
+f_Programming_Projects_Garminazer_gen_006_B4313_00_source_Rez_mcgen_53_20_if_true:
+f_Programming_Projects_Garminazer_gen_006_B4313_00_source_Rez_mcgen_53_41_start:
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 54 24 ]
+                ret ?;
+f_Programming_Projects_Garminazer_gen_006_B4313_00_source_Rez_mcgen_53_41_stop:
+                goto @f_Programming_Projects_Garminazer_gen_006_B4313_00_source_Rez_mcgen_53_20_if_end;
+f_Programming_Projects_Garminazer_gen_006_B4313_00_source_Rez_mcgen_53_20_if_end:
+f_Programming_Projects_Garminazer_gen_006_B4313_00_source_Rez_mcgen_52_41_stop:
+                goto @f_Programming_Projects_Garminazer_gen_006_B4313_00_source_Rez_mcgen_52_16_if_end;
+f_Programming_Projects_Garminazer_gen_006_B4313_00_source_Rez_mcgen_52_16_if_end:
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 58 16 ]
+                %tmp.10 = lgetv %dc;
+                %tmp.11 = getv function %tmp.10 :setColor;
+                %tmp.12 = getm $.Toybox.Graphics;
+                %tmp.13 = getv %tmp.12 :COLOR_TRANSPARENT;
+                %tmp.14 = getm $.Toybox.Graphics;
+                %tmp.15 = getv %tmp.14 :COLOR_TRANSPARENT;
+                invoke %tmp.10 %tmp.11(%tmp.13, %tmp.15);
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 59 16 ]
+                %tmp.16 = lgetv %dc;
+                %tmp.17 = getv function %tmp.16 :fillRectangle;
+                %tmp.18 = 0;
+                %tmp.19 = 0;
+                %tmp.20 = add %tmp.18 %tmp.19;
+                %tmp.21 = 0;
+                %tmp.22 = 0;
+                %tmp.23 = add %tmp.21 %tmp.22;
+                %tmp.24 = 416;
+                %tmp.25 = 0;
+                %tmp.26 = sub %tmp.24 %tmp.25;
+                %tmp.27 = 416;
+                %tmp.28 = 0;
+                %tmp.29 = sub %tmp.27 %tmp.28;
+                invoke %tmp.16 %tmp.17(%tmp.20, %tmp.23, %tmp.26, %tmp.29);
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 60 16 ]
+                %tmp.30 = lgetv %dc;
+                %tmp.31 = getv function %tmp.30 :setColor;
+                %tmp.32 = getm $.Toybox.Graphics;
+                %tmp.33 = getv %tmp.32 :COLOR_TRANSPARENT;
+                %tmp.34 = getm $.Toybox.Graphics;
+                %tmp.35 = getv %tmp.34 :COLOR_TRANSPARENT;
+                invoke %tmp.30 %tmp.31(%tmp.33, %tmp.35);
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 62 16 ]
+                %tmp.36 = lgetv %dc;
+                %tmp.37 = getv function %tmp.36 :setColor;
+                %tmp.38 = getm $.Toybox.Graphics;
+                %tmp.39 = getv %tmp.38 :COLOR_RED;
+                %tmp.40 = getm $.Toybox.Graphics;
+                %tmp.41 = getv %tmp.40 :COLOR_TRANSPARENT;
+                invoke %tmp.36 %tmp.37(%tmp.39, %tmp.41);
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 63 16 ]
+                %tmp.42 = lgetv %dc;
+                %tmp.43 = getv function %tmp.42 :fillCircle;
+                %tmp.44 = 0;
+                %tmp.45 = 0;
+                %tmp.46 = add %tmp.44 %tmp.45;
+                %tmp.47 = 416;
+                %tmp.48 = 0;
+                %tmp.49 = sub %tmp.47 %tmp.48;
+                %tmp.50 = 48;
+                %tmp.51 = 100.0;
+                %tmp.52 = div %tmp.50 %tmp.51;
+                %tmp.53 = mul %tmp.49 %tmp.52;
+                %tmp.54 = add %tmp.46 %tmp.53;
+                %tmp.55 = 0;
+                %tmp.56 = 0;
+                %tmp.57 = add %tmp.55 %tmp.56;
+                %tmp.58 = 416;
+                %tmp.59 = 0;
+                %tmp.60 = sub %tmp.58 %tmp.59;
+                %tmp.61 = 67;
+                %tmp.62 = 100.0;
+                %tmp.63 = div %tmp.61 %tmp.62;
+                %tmp.64 = mul %tmp.60 %tmp.63;
+                %tmp.65 = add %tmp.57 %tmp.64;
+                %tmp.66 = 416;
+                %tmp.67 = 0;
+                %tmp.68 = sub %tmp.66 %tmp.67;
+                %tmp.69 = 4;
+                %tmp.70 = 100.0;
+                %tmp.71 = div %tmp.69 %tmp.70;
+                %tmp.72 = mul %tmp.68 %tmp.71;
+                %tmp.73 = 0;
+                %tmp.74 = sub %tmp.72 %tmp.73;
+                invoke %tmp.42 %tmp.43(%tmp.54, %tmp.65, %tmp.74);
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 64 16 ]
+                %tmp.75 = lgetv %dc;
+                %tmp.76 = getv function %tmp.75 :setColor;
+                %tmp.77 = getm $.Toybox.Graphics;
+                %tmp.78 = getv %tmp.77 :COLOR_RED;
+                %tmp.79 = getm $.Toybox.Graphics;
+                %tmp.80 = getv %tmp.79 :COLOR_TRANSPARENT;
+                invoke %tmp.75 %tmp.76(%tmp.78, %tmp.80);
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 65 16 ]
+                %tmp.81 = lgetv %dc;
+                %tmp.82 = getv function %tmp.81 :fillCircle;
+                %tmp.83 = 0;
+                %tmp.84 = 0;
+                %tmp.85 = add %tmp.83 %tmp.84;
+                %tmp.86 = 416;
+                %tmp.87 = 0;
+                %tmp.88 = sub %tmp.86 %tmp.87;
+                %tmp.89 = 39;
+                %tmp.90 = 100.0;
+                %tmp.91 = div %tmp.89 %tmp.90;
+                %tmp.92 = mul %tmp.88 %tmp.91;
+                %tmp.93 = add %tmp.85 %tmp.92;
+                %tmp.94 = 0;
+                %tmp.95 = 0;
+                %tmp.96 = add %tmp.94 %tmp.95;
+                %tmp.97 = 416;
+                %tmp.98 = 0;
+                %tmp.99 = sub %tmp.97 %tmp.98;
+                %tmp.100 = 67;
+                %tmp.101 = 100.0;
+                %tmp.102 = div %tmp.100 %tmp.101;
+                %tmp.103 = mul %tmp.99 %tmp.102;
+                %tmp.104 = add %tmp.96 %tmp.103;
+                %tmp.105 = 416;
+                %tmp.106 = 0;
+                %tmp.107 = sub %tmp.105 %tmp.106;
+                %tmp.108 = 4;
+                %tmp.109 = 100.0;
+                %tmp.110 = div %tmp.108 %tmp.109;
+                %tmp.111 = mul %tmp.107 %tmp.110;
+                %tmp.112 = 0;
+                %tmp.113 = sub %tmp.111 %tmp.112;
+                invoke %tmp.81 %tmp.82(%tmp.93, %tmp.104, %tmp.113);
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 66 16 ]
+                %tmp.114 = lgetv %dc;
+                %tmp.115 = getv function %tmp.114 :setColor;
+                %tmp.116 = getm $.Toybox.Graphics;
+                %tmp.117 = getv %tmp.116 :COLOR_YELLOW;
+                %tmp.118 = getm $.Toybox.Graphics;
+                %tmp.119 = getv %tmp.118 :COLOR_TRANSPARENT;
+                invoke %tmp.114 %tmp.115(%tmp.117, %tmp.119);
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 67 16 ]
+                %tmp.120 = lgetv %dc;
+                %tmp.121 = getv function %tmp.120 :fillRectangle;
+                %tmp.122 = 0;
+                %tmp.123 = 0;
+                %tmp.124 = add %tmp.122 %tmp.123;
+                %tmp.125 = 416;
+                %tmp.126 = 0;
+                %tmp.127 = sub %tmp.125 %tmp.126;
+                %tmp.128 = 35;
+                %tmp.129 = 100.0;
+                %tmp.130 = div %tmp.128 %tmp.129;
+                %tmp.131 = mul %tmp.127 %tmp.130;
+                %tmp.132 = add %tmp.124 %tmp.131;
+                %tmp.133 = 0;
+                %tmp.134 = add %tmp.132 %tmp.133;
+                %tmp.135 = 0;
+                %tmp.136 = 0;
+                %tmp.137 = add %tmp.135 %tmp.136;
+                %tmp.138 = 416;
+                %tmp.139 = 0;
+                %tmp.140 = sub %tmp.138 %tmp.139;
+                %tmp.141 = 55;
+                %tmp.142 = 100.0;
+                %tmp.143 = div %tmp.141 %tmp.142;
+                %tmp.144 = mul %tmp.140 %tmp.143;
+                %tmp.145 = add %tmp.137 %tmp.144;
+                %tmp.146 = 0;
+                %tmp.147 = add %tmp.145 %tmp.146;
+                %tmp.148 = 416;
+                %tmp.149 = 0;
+                %tmp.150 = sub %tmp.148 %tmp.149;
+                %tmp.151 = 30;
+                %tmp.152 = 100.0;
+                %tmp.153 = div %tmp.151 %tmp.152;
+                %tmp.154 = mul %tmp.150 %tmp.153;
+                %tmp.155 = 2;
+                %tmp.156 = 0;
+                %tmp.157 = mul %tmp.155 %tmp.156;
+                %tmp.158 = sub %tmp.154 %tmp.157;
+                %tmp.159 = 416;
+                %tmp.160 = 0;
+                %tmp.161 = sub %tmp.159 %tmp.160;
+                %tmp.162 = 10;
+                %tmp.163 = 100.0;
+                %tmp.164 = div %tmp.162 %tmp.163;
+                %tmp.165 = mul %tmp.161 %tmp.164;
+                %tmp.166 = 2;
+                %tmp.167 = 0;
+                %tmp.168 = mul %tmp.166 %tmp.167;
+                %tmp.169 = sub %tmp.165 %tmp.168;
+                invoke %tmp.120 %tmp.121(%tmp.134, %tmp.147, %tmp.158, %tmp.169);
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 68 16 ]
+                %tmp.170 = lgetv %dc;
+                %tmp.171 = getv function %tmp.170 :setColor;
+                %tmp.172 = getm $.Toybox.Graphics;
+                %tmp.173 = getv %tmp.172 :COLOR_ORANGE;
+                %tmp.174 = getm $.Toybox.Graphics;
+                %tmp.175 = getv %tmp.174 :COLOR_TRANSPARENT;
+                invoke %tmp.170 %tmp.171(%tmp.173, %tmp.175);
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 69 16 ]
+                %tmp.176 = lgetv %dc;
+                %tmp.177 = getv function %tmp.176 :fillRoundedRectangle;
+                %tmp.178 = 0;
+                %tmp.179 = 0;
+                %tmp.180 = add %tmp.178 %tmp.179;
+                %tmp.181 = 416;
+                %tmp.182 = 0;
+                %tmp.183 = sub %tmp.181 %tmp.182;
+                %tmp.184 = 37;
+                %tmp.185 = 100.0;
+                %tmp.186 = div %tmp.184 %tmp.185;
+                %tmp.187 = mul %tmp.183 %tmp.186;
+                %tmp.188 = add %tmp.180 %tmp.187;
+                %tmp.189 = 0;
+                %tmp.190 = add %tmp.188 %tmp.189;
+                %tmp.191 = 0;
+                %tmp.192 = 0;
+                %tmp.193 = add %tmp.191 %tmp.192;
+                %tmp.194 = 416;
+                %tmp.195 = 0;
+                %tmp.196 = sub %tmp.194 %tmp.195;
+                %tmp.197 = 57;
+                %tmp.198 = 100.0;
+                %tmp.199 = div %tmp.197 %tmp.198;
+                %tmp.200 = mul %tmp.196 %tmp.199;
+                %tmp.201 = add %tmp.193 %tmp.200;
+                %tmp.202 = 0;
+                %tmp.203 = add %tmp.201 %tmp.202;
+                %tmp.204 = 416;
+                %tmp.205 = 0;
+                %tmp.206 = sub %tmp.204 %tmp.205;
+                %tmp.207 = 20;
+                %tmp.208 = 100.0;
+                %tmp.209 = div %tmp.207 %tmp.208;
+                %tmp.210 = mul %tmp.206 %tmp.209;
+                %tmp.211 = 2;
+                %tmp.212 = 0;
+                %tmp.213 = mul %tmp.211 %tmp.212;
+                %tmp.214 = sub %tmp.210 %tmp.213;
+                %tmp.215 = 416;
+                %tmp.216 = 0;
+                %tmp.217 = sub %tmp.215 %tmp.216;
+                %tmp.218 = 3;
+                %tmp.219 = 100.0;
+                %tmp.220 = div %tmp.218 %tmp.219;
+                %tmp.221 = mul %tmp.217 %tmp.220;
+                %tmp.222 = 2;
+                %tmp.223 = 0;
+                %tmp.224 = mul %tmp.222 %tmp.223;
+                %tmp.225 = sub %tmp.221 %tmp.224;
+                %tmp.226 = 3;
+                invoke %tmp.176 %tmp.177(%tmp.190, %tmp.203, %tmp.214, %tmp.225, %tmp.226);
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 70 16 ]
+                %tmp.227 = lgetv %dc;
+                %tmp.228 = getv function %tmp.227 :setColor;
+                %tmp.229 = getm $.Toybox.Graphics;
+                %tmp.230 = getv %tmp.229 :COLOR_RED;
+                %tmp.231 = getm $.Toybox.Graphics;
+                %tmp.232 = getv %tmp.231 :COLOR_TRANSPARENT;
+                invoke %tmp.227 %tmp.228(%tmp.230, %tmp.232);
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 71 16 ]
+                %tmp.233 = lgetv %dc;
+                %tmp.234 = getv function %tmp.233 :fillCircle;
+                %tmp.235 = 0;
+                %tmp.236 = 0;
+                %tmp.237 = add %tmp.235 %tmp.236;
+                %tmp.238 = 416;
+                %tmp.239 = 0;
+                %tmp.240 = sub %tmp.238 %tmp.239;
+                %tmp.241 = 58;
+                %tmp.242 = 100.0;
+                %tmp.243 = div %tmp.241 %tmp.242;
+                %tmp.244 = mul %tmp.240 %tmp.243;
+                %tmp.245 = add %tmp.237 %tmp.244;
+                %tmp.246 = 0;
+                %tmp.247 = 0;
+                %tmp.248 = add %tmp.246 %tmp.247;
+                %tmp.249 = 416;
+                %tmp.250 = 0;
+                %tmp.251 = sub %tmp.249 %tmp.250;
+                %tmp.252 = 66;
+                %tmp.253 = 100.0;
+                %tmp.254 = div %tmp.252 %tmp.253;
+                %tmp.255 = mul %tmp.251 %tmp.254;
+                %tmp.256 = add %tmp.248 %tmp.255;
+                %tmp.257 = 416;
+                %tmp.258 = 0;
+                %tmp.259 = sub %tmp.257 %tmp.258;
+                %tmp.260 = 5;
+                %tmp.261 = 100.0;
+                %tmp.262 = div %tmp.260 %tmp.261;
+                %tmp.263 = mul %tmp.259 %tmp.262;
+                invoke %tmp.233 %tmp.234(%tmp.245, %tmp.256, %tmp.263);
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 72 16 ]
+                %tmp.264 = lgetv %dc;
+                %tmp.265 = getv function %tmp.264 :setColor;
+                %tmp.266 = getm $.Toybox.Graphics;
+                %tmp.267 = getv %tmp.266 :COLOR_YELLOW;
+                %tmp.268 = getm $.Toybox.Graphics;
+                %tmp.269 = getv %tmp.268 :COLOR_TRANSPARENT;
+                invoke %tmp.264 %tmp.265(%tmp.267, %tmp.269);
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 73 16 ]
+                %tmp.270 = lgetv %dc;
+                %tmp.271 = getv function %tmp.270 :fillCircle;
+                %tmp.272 = 0;
+                %tmp.273 = 0;
+                %tmp.274 = add %tmp.272 %tmp.273;
+                %tmp.275 = 416;
+                %tmp.276 = 0;
+                %tmp.277 = sub %tmp.275 %tmp.276;
+                %tmp.278 = 58;
+                %tmp.279 = 100.0;
+                %tmp.280 = div %tmp.278 %tmp.279;
+                %tmp.281 = mul %tmp.277 %tmp.280;
+                %tmp.282 = add %tmp.274 %tmp.281;
+                %tmp.283 = 0;
+                %tmp.284 = 0;
+                %tmp.285 = add %tmp.283 %tmp.284;
+                %tmp.286 = 416;
+                %tmp.287 = 0;
+                %tmp.288 = sub %tmp.286 %tmp.287;
+                %tmp.289 = 66;
+                %tmp.290 = 100.0;
+                %tmp.291 = div %tmp.289 %tmp.290;
+                %tmp.292 = mul %tmp.288 %tmp.291;
+                %tmp.293 = add %tmp.285 %tmp.292;
+                %tmp.294 = 416;
+                %tmp.295 = 0;
+                %tmp.296 = sub %tmp.294 %tmp.295;
+                %tmp.297 = 5;
+                %tmp.298 = 100.0;
+                %tmp.299 = div %tmp.297 %tmp.298;
+                %tmp.300 = mul %tmp.296 %tmp.299;
+                %tmp.301 = 5;
+                %tmp.302 = sub %tmp.300 %tmp.301;
+                invoke %tmp.270 %tmp.271(%tmp.282, %tmp.293, %tmp.302);
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 74 16 ]
+                %tmp.303 = lgetv %dc;
+                %tmp.304 = getv function %tmp.303 :setColor;
+                %tmp.305 = getm $.Toybox.Graphics;
+                %tmp.306 = getv %tmp.305 :COLOR_PURPLE;
+                %tmp.307 = getm $.Toybox.Graphics;
+                %tmp.308 = getv %tmp.307 :COLOR_TRANSPARENT;
+                invoke %tmp.303 %tmp.304(%tmp.306, %tmp.308);
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 75 16 ]
+                %tmp.309 = lgetv %dc;
+                %tmp.310 = getv function %tmp.309 :fillRoundedRectangle;
+                %tmp.311 = 0;
+                %tmp.312 = 0;
+                %tmp.313 = add %tmp.311 %tmp.312;
+                %tmp.314 = 416;
+                %tmp.315 = 0;
+                %tmp.316 = sub %tmp.314 %tmp.315;
+                %tmp.317 = 40;
+                %tmp.318 = 100.0;
+                %tmp.319 = div %tmp.317 %tmp.318;
+                %tmp.320 = mul %tmp.316 %tmp.319;
+                %tmp.321 = add %tmp.313 %tmp.320;
+                %tmp.322 = 0;
+                %tmp.323 = add %tmp.321 %tmp.322;
+                %tmp.324 = 0;
+                %tmp.325 = 0;
+                %tmp.326 = add %tmp.324 %tmp.325;
+                %tmp.327 = 416;
+                %tmp.328 = 0;
+                %tmp.329 = sub %tmp.327 %tmp.328;
+                %tmp.330 = 65;
+                %tmp.331 = 100.0;
+                %tmp.332 = div %tmp.330 %tmp.331;
+                %tmp.333 = mul %tmp.329 %tmp.332;
+                %tmp.334 = add %tmp.326 %tmp.333;
+                %tmp.335 = 0;
+                %tmp.336 = add %tmp.334 %tmp.335;
+                %tmp.337 = 416;
+                %tmp.338 = 0;
+                %tmp.339 = sub %tmp.337 %tmp.338;
+                %tmp.340 = 21;
+                %tmp.341 = 100.0;
+                %tmp.342 = div %tmp.340 %tmp.341;
+                %tmp.343 = mul %tmp.339 %tmp.342;
+                %tmp.344 = 2;
+                %tmp.345 = 0;
+                %tmp.346 = mul %tmp.344 %tmp.345;
+                %tmp.347 = sub %tmp.343 %tmp.346;
+                %tmp.348 = 416;
+                %tmp.349 = 0;
+                %tmp.350 = sub %tmp.348 %tmp.349;
+                %tmp.351 = 3;
+                %tmp.352 = 100.0;
+                %tmp.353 = div %tmp.351 %tmp.352;
+                %tmp.354 = mul %tmp.350 %tmp.353;
+                %tmp.355 = 2;
+                %tmp.356 = 0;
+                %tmp.357 = mul %tmp.355 %tmp.356;
+                %tmp.358 = sub %tmp.354 %tmp.357;
+                %tmp.359 = 2;
+                invoke %tmp.309 %tmp.310(%tmp.323, %tmp.336, %tmp.347, %tmp.358, %tmp.359);
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 76 16 ]
+                %tmp.360 = lgetv %dc;
+                %tmp.361 = getv function %tmp.360 :setColor;
+                %tmp.362 = getm $.Toybox.Graphics;
+                %tmp.363 = getv %tmp.362 :COLOR_RED;
+                %tmp.364 = getm $.Toybox.Graphics;
+                %tmp.365 = getv %tmp.364 :COLOR_TRANSPARENT;
+                invoke %tmp.360 %tmp.361(%tmp.363, %tmp.365);
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 77 16 ]
+                %tmp.366 = lgetv %dc;
+                %tmp.367 = getv function %tmp.366 :fillPolygon;
+                %tmp.368 = newa Array<Array<Numeric>> 3;
+                %tmp.369 = newa Array<Numeric> 2;
+                %tmp.370 = 0;
+                %tmp.371 = 0;
+                %tmp.372 = add %tmp.370 %tmp.371;
+                %tmp.373 = 0;
+                %tmp.374 = 0;
+                %tmp.375 = add %tmp.373 %tmp.374;
+                %tmp.376 = 0;
+                %tmp.377 = add %tmp.375 %tmp.376;
+                %tmp.378 = add %tmp.372 %tmp.377;
+                %tmp.379 = 124.8;
+                %tmp.380 = add %tmp.378 %tmp.379;
+                %tmp.381 = dup %tmp.369;
+                %tmp.382 = aputv %tmp.381 0 %tmp.380;
+                %tmp.383 = 0;
+                %tmp.384 = 0;
+                %tmp.385 = add %tmp.383 %tmp.384;
+                %tmp.386 = 0;
+                %tmp.387 = 0;
+                %tmp.388 = add %tmp.386 %tmp.387;
+                %tmp.389 = 0;
+                %tmp.390 = add %tmp.388 %tmp.389;
+                %tmp.391 = add %tmp.385 %tmp.390;
+                %tmp.392 = 278.72;
+                %tmp.393 = add %tmp.391 %tmp.392;
+                %tmp.394 = dup %tmp.382;
+                %tmp.395 = aputv %tmp.394 1 %tmp.393;
+                %tmp.396 = dup %tmp.368;
+                %tmp.397 = aputv %tmp.396 0 %tmp.395;
+                %tmp.398 = newa Array<Numeric> 2;
+                %tmp.399 = 0;
+                %tmp.400 = 0;
+                %tmp.401 = add %tmp.399 %tmp.400;
+                %tmp.402 = 0;
+                %tmp.403 = 0;
+                %tmp.404 = add %tmp.402 %tmp.403;
+                %tmp.405 = 0;
+                %tmp.406 = add %tmp.404 %tmp.405;
+                %tmp.407 = add %tmp.401 %tmp.406;
+                %tmp.408 = 145.59999;
+                %tmp.409 = add %tmp.407 %tmp.408;
+                %tmp.410 = dup %tmp.398;
+                %tmp.411 = aputv %tmp.410 0 %tmp.409;
+                %tmp.412 = 0;
+                %tmp.413 = 0;
+                %tmp.414 = add %tmp.412 %tmp.413;
+                %tmp.415 = 0;
+                %tmp.416 = 0;
+                %tmp.417 = add %tmp.415 %tmp.416;
+                %tmp.418 = 0;
+                %tmp.419 = add %tmp.417 %tmp.418;
+                %tmp.420 = add %tmp.414 %tmp.419;
+                %tmp.421 = 278.72;
+                %tmp.422 = add %tmp.420 %tmp.421;
+                %tmp.423 = dup %tmp.411;
+                %tmp.424 = aputv %tmp.423 1 %tmp.422;
+                %tmp.425 = dup %tmp.397;
+                %tmp.426 = aputv %tmp.425 1 %tmp.424;
+                %tmp.427 = newa Array<Numeric> 2;
+                %tmp.428 = 0;
+                %tmp.429 = 0;
+                %tmp.430 = add %tmp.428 %tmp.429;
+                %tmp.431 = 0;
+                %tmp.432 = 0;
+                %tmp.433 = add %tmp.431 %tmp.432;
+                %tmp.434 = 0;
+                %tmp.435 = add %tmp.433 %tmp.434;
+                %tmp.436 = add %tmp.430 %tmp.435;
+                %tmp.437 = 145.59999;
+                %tmp.438 = add %tmp.436 %tmp.437;
+                %tmp.439 = dup %tmp.427;
+                %tmp.440 = aputv %tmp.439 0 %tmp.438;
+                %tmp.441 = 0;
+                %tmp.442 = 0;
+                %tmp.443 = add %tmp.441 %tmp.442;
+                %tmp.444 = 0;
+                %tmp.445 = 0;
+                %tmp.446 = add %tmp.444 %tmp.445;
+                %tmp.447 = 0;
+                %tmp.448 = add %tmp.446 %tmp.447;
+                %tmp.449 = add %tmp.443 %tmp.448;
+                %tmp.450 = 228.8;
+                %tmp.451 = add %tmp.449 %tmp.450;
+                %tmp.452 = dup %tmp.440;
+                %tmp.453 = aputv %tmp.452 1 %tmp.451;
+                %tmp.454 = dup %tmp.426;
+                %tmp.455 = aputv %tmp.454 2 %tmp.453;
+                invoke %tmp.366 %tmp.367(%tmp.455);
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 78 16 ]
+                %tmp.456 = lgetv %dc;
+                %tmp.457 = getv function %tmp.456 :setColor;
+                %tmp.458 = getm $.Toybox.Graphics;
+                %tmp.459 = getv %tmp.458 :COLOR_YELLOW;
+                %tmp.460 = getm $.Toybox.Graphics;
+                %tmp.461 = getv %tmp.460 :COLOR_TRANSPARENT;
+                invoke %tmp.456 %tmp.457(%tmp.459, %tmp.461);
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 79 16 ]
+                %tmp.462 = lgetv %dc;
+                %tmp.463 = getv function %tmp.462 :fillRectangle;
+                %tmp.464 = 0;
+                %tmp.465 = 0;
+                %tmp.466 = add %tmp.464 %tmp.465;
+                %tmp.467 = 416;
+                %tmp.468 = 0;
+                %tmp.469 = sub %tmp.467 %tmp.468;
+                %tmp.470 = 55;
+                %tmp.471 = 100.0;
+                %tmp.472 = div %tmp.470 %tmp.471;
+                %tmp.473 = mul %tmp.469 %tmp.472;
+                %tmp.474 = add %tmp.466 %tmp.473;
+                %tmp.475 = 0;
+                %tmp.476 = 0;
+                %tmp.477 = add %tmp.475 %tmp.476;
+                %tmp.478 = 416;
+                %tmp.479 = 0;
+                %tmp.480 = sub %tmp.478 %tmp.479;
+                %tmp.481 = 45;
+                %tmp.482 = 100.0;
+                %tmp.483 = div %tmp.481 %tmp.482;
+                %tmp.484 = mul %tmp.480 %tmp.483;
+                %tmp.485 = add %tmp.477 %tmp.484;
+                %tmp.486 = 416;
+                %tmp.487 = 0;
+                %tmp.488 = sub %tmp.486 %tmp.487;
+                %tmp.489 = 10;
+                %tmp.490 = 100.0;
+                %tmp.491 = div %tmp.489 %tmp.490;
+                %tmp.492 = mul %tmp.488 %tmp.491;
+                %tmp.493 = 416;
+                %tmp.494 = 0;
+                %tmp.495 = sub %tmp.493 %tmp.494;
+                %tmp.496 = 11;
+                %tmp.497 = 100.0;
+                %tmp.498 = div %tmp.496 %tmp.497;
+                %tmp.499 = mul %tmp.495 %tmp.498;
+                invoke %tmp.462 %tmp.463(%tmp.474, %tmp.485, %tmp.492, %tmp.499);
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 80 16 ]
+                %tmp.500 = lgetv %dc;
+                %tmp.501 = getv function %tmp.500 :setColor;
+                %tmp.502 = getm $.Toybox.Graphics;
+                %tmp.503 = getv %tmp.502 :COLOR_PURPLE;
+                %tmp.504 = getm $.Toybox.Graphics;
+                %tmp.505 = getv %tmp.504 :COLOR_TRANSPARENT;
+                invoke %tmp.500 %tmp.501(%tmp.503, %tmp.505);
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 81 16 ]
+                %tmp.506 = lgetv %dc;
+                %tmp.507 = getv function %tmp.506 :fillRectangle;
+                %tmp.508 = 0;
+                %tmp.509 = 0;
+                %tmp.510 = add %tmp.508 %tmp.509;
+                %tmp.511 = 416;
+                %tmp.512 = 0;
+                %tmp.513 = sub %tmp.511 %tmp.512;
+                %tmp.514 = 55;
+                %tmp.515 = 100.0;
+                %tmp.516 = div %tmp.514 %tmp.515;
+                %tmp.517 = mul %tmp.513 %tmp.516;
+                %tmp.518 = add %tmp.510 %tmp.517;
+                %tmp.519 = 3;
+                %tmp.520 = add %tmp.518 %tmp.519;
+                %tmp.521 = 0;
+                %tmp.522 = 0;
+                %tmp.523 = add %tmp.521 %tmp.522;
+                %tmp.524 = 416;
+                %tmp.525 = 0;
+                %tmp.526 = sub %tmp.524 %tmp.525;
+                %tmp.527 = 45;
+                %tmp.528 = 100.0;
+                %tmp.529 = div %tmp.527 %tmp.528;
+                %tmp.530 = mul %tmp.526 %tmp.529;
+                %tmp.531 = add %tmp.523 %tmp.530;
+                %tmp.532 = 3;
+                %tmp.533 = add %tmp.531 %tmp.532;
+                %tmp.534 = 416;
+                %tmp.535 = 0;
+                %tmp.536 = sub %tmp.534 %tmp.535;
+                %tmp.537 = 10;
+                %tmp.538 = 100.0;
+                %tmp.539 = div %tmp.537 %tmp.538;
+                %tmp.540 = mul %tmp.536 %tmp.539;
+                %tmp.541 = 2;
+                %tmp.542 = 3;
+                %tmp.543 = mul %tmp.541 %tmp.542;
+                %tmp.544 = sub %tmp.540 %tmp.543;
+                %tmp.545 = 416;
+                %tmp.546 = 0;
+                %tmp.547 = sub %tmp.545 %tmp.546;
+                %tmp.548 = 11;
+                %tmp.549 = 100.0;
+                %tmp.550 = div %tmp.548 %tmp.549;
+                %tmp.551 = mul %tmp.547 %tmp.550;
+                %tmp.552 = 2;
+                %tmp.553 = 3;
+                %tmp.554 = mul %tmp.552 %tmp.553;
+                %tmp.555 = sub %tmp.551 %tmp.554;
+                invoke %tmp.506 %tmp.507(%tmp.520, %tmp.533, %tmp.544, %tmp.555);
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 82 16 ]
+                %tmp.556 = lgetv %dc;
+                %tmp.557 = getv function %tmp.556 :setColor;
+                %tmp.558 = getm $.Toybox.Graphics;
+                %tmp.559 = getv %tmp.558 :COLOR_RED;
+                %tmp.560 = getm $.Toybox.Graphics;
+                %tmp.561 = getv %tmp.560 :COLOR_TRANSPARENT;
+                invoke %tmp.556 %tmp.557(%tmp.559, %tmp.561);
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 83 16 ]
+                %tmp.562 = lgetv %dc;
+                %tmp.563 = getv function %tmp.562 :fillRectangle;
+                %tmp.564 = 0;
+                %tmp.565 = 0;
+                %tmp.566 = add %tmp.564 %tmp.565;
+                %tmp.567 = 416;
+                %tmp.568 = 0;
+                %tmp.569 = sub %tmp.567 %tmp.568;
+                %tmp.570 = 45;
+                %tmp.571 = 100.0;
+                %tmp.572 = div %tmp.570 %tmp.571;
+                %tmp.573 = mul %tmp.569 %tmp.572;
+                %tmp.574 = add %tmp.566 %tmp.573;
+                %tmp.575 = 0;
+                %tmp.576 = add %tmp.574 %tmp.575;
+                %tmp.577 = 0;
+                %tmp.578 = 0;
+                %tmp.579 = add %tmp.577 %tmp.578;
+                %tmp.580 = 416;
+                %tmp.581 = 0;
+                %tmp.582 = sub %tmp.580 %tmp.581;
+                %tmp.583 = 47;
+                %tmp.584 = 100.0;
+                %tmp.585 = div %tmp.583 %tmp.584;
+                %tmp.586 = mul %tmp.582 %tmp.585;
+                %tmp.587 = add %tmp.579 %tmp.586;
+                %tmp.588 = 0;
+                %tmp.589 = add %tmp.587 %tmp.588;
+                %tmp.590 = 416;
+                %tmp.591 = 0;
+                %tmp.592 = sub %tmp.590 %tmp.591;
+                %tmp.593 = 3;
+                %tmp.594 = 100.0;
+                %tmp.595 = div %tmp.593 %tmp.594;
+                %tmp.596 = mul %tmp.592 %tmp.595;
+                %tmp.597 = 2;
+                %tmp.598 = 0;
+                %tmp.599 = mul %tmp.597 %tmp.598;
+                %tmp.600 = sub %tmp.596 %tmp.599;
+                %tmp.601 = 416;
+                %tmp.602 = 0;
+                %tmp.603 = sub %tmp.601 %tmp.602;
+                %tmp.604 = 9;
+                %tmp.605 = 100.0;
+                %tmp.606 = div %tmp.604 %tmp.605;
+                %tmp.607 = mul %tmp.603 %tmp.606;
+                %tmp.608 = 2;
+                %tmp.609 = 0;
+                %tmp.610 = mul %tmp.608 %tmp.609;
+                %tmp.611 = sub %tmp.607 %tmp.610;
+                invoke %tmp.562 %tmp.563(%tmp.576, %tmp.589, %tmp.600, %tmp.611);
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 84 16 ]
+                %tmp.612 = lgetv %dc;
+                %tmp.613 = getv function %tmp.612 :setColor;
+                %tmp.614 = getm $.Toybox.Graphics;
+                %tmp.615 = getv %tmp.614 :COLOR_PURPLE;
+                %tmp.616 = getm $.Toybox.Graphics;
+                %tmp.617 = getv %tmp.616 :COLOR_TRANSPARENT;
+                invoke %tmp.612 %tmp.613(%tmp.615, %tmp.617);
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 85 16 ]
+                %tmp.618 = lgetv %dc;
+                %tmp.619 = getv function %tmp.618 :fillRectangle;
+                %tmp.620 = 0;
+                %tmp.621 = 0;
+                %tmp.622 = add %tmp.620 %tmp.621;
+                %tmp.623 = 416;
+                %tmp.624 = 0;
+                %tmp.625 = sub %tmp.623 %tmp.624;
+                %tmp.626 = 44;
+                %tmp.627 = 100.0;
+                %tmp.628 = div %tmp.626 %tmp.627;
+                %tmp.629 = mul %tmp.625 %tmp.628;
+                %tmp.630 = add %tmp.622 %tmp.629;
+                %tmp.631 = 0;
+                %tmp.632 = add %tmp.630 %tmp.631;
+                %tmp.633 = 0;
+                %tmp.634 = 0;
+                %tmp.635 = add %tmp.633 %tmp.634;
+                %tmp.636 = 416;
+                %tmp.637 = 0;
+                %tmp.638 = sub %tmp.636 %tmp.637;
+                %tmp.639 = 45;
+                %tmp.640 = 100.0;
+                %tmp.641 = div %tmp.639 %tmp.640;
+                %tmp.642 = mul %tmp.638 %tmp.641;
+                %tmp.643 = add %tmp.635 %tmp.642;
+                %tmp.644 = 0;
+                %tmp.645 = add %tmp.643 %tmp.644;
+                %tmp.646 = 416;
+                %tmp.647 = 0;
+                %tmp.648 = sub %tmp.646 %tmp.647;
+                %tmp.649 = 5;
+                %tmp.650 = 100.0;
+                %tmp.651 = div %tmp.649 %tmp.650;
+                %tmp.652 = mul %tmp.648 %tmp.651;
+                %tmp.653 = 2;
+                %tmp.654 = 0;
+                %tmp.655 = mul %tmp.653 %tmp.654;
+                %tmp.656 = sub %tmp.652 %tmp.655;
+                %tmp.657 = 416;
+                %tmp.658 = 0;
+                %tmp.659 = sub %tmp.657 %tmp.658;
+                %tmp.660 = 2;
+                %tmp.661 = 100.0;
+                %tmp.662 = div %tmp.660 %tmp.661;
+                %tmp.663 = mul %tmp.659 %tmp.662;
+                %tmp.664 = 2;
+                %tmp.665 = 0;
+                %tmp.666 = mul %tmp.664 %tmp.665;
+                %tmp.667 = sub %tmp.663 %tmp.666;
+                invoke %tmp.618 %tmp.619(%tmp.632, %tmp.645, %tmp.656, %tmp.667);
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 86 16 ]
+                %tmp.668 = lgetv %dc;
+                %tmp.669 = getv function %tmp.668 :setColor;
+                %tmp.670 = getm $.Toybox.Graphics;
+                %tmp.671 = getv %tmp.670 :COLOR_YELLOW;
+                %tmp.672 = getm $.Toybox.Graphics;
+                %tmp.673 = getv %tmp.672 :COLOR_TRANSPARENT;
+                invoke %tmp.668 %tmp.669(%tmp.671, %tmp.673);
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 87 16 ]
+                %tmp.674 = lgetv %dc;
+                %tmp.675 = getv function %tmp.674 :fillPolygon;
+                %tmp.676 = newa Array<Array<Numeric>> 4;
+                %tmp.677 = newa Array<Numeric> 2;
+                %tmp.678 = 0;
+                %tmp.679 = 0;
+                %tmp.680 = add %tmp.678 %tmp.679;
+                %tmp.681 = 0;
+                %tmp.682 = 0;
+                %tmp.683 = add %tmp.681 %tmp.682;
+                %tmp.684 = 0;
+                %tmp.685 = add %tmp.683 %tmp.684;
+                %tmp.686 = add %tmp.680 %tmp.685;
+                %tmp.687 = 203.84;
+                %tmp.688 = add %tmp.686 %tmp.687;
+                %tmp.689 = dup %tmp.677;
+                %tmp.690 = aputv %tmp.689 0 %tmp.688;
+                %tmp.691 = 0;
+                %tmp.692 = 0;
+                %tmp.693 = add %tmp.691 %tmp.692;
+                %tmp.694 = 0;
+                %tmp.695 = 0;
+                %tmp.696 = add %tmp.694 %tmp.695;
+                %tmp.697 = 0;
+                %tmp.698 = add %tmp.696 %tmp.697;
+                %tmp.699 = add %tmp.693 %tmp.698;
+                %tmp.700 = 187.2;
+                %tmp.701 = add %tmp.699 %tmp.700;
+                %tmp.702 = dup %tmp.690;
+                %tmp.703 = aputv %tmp.702 1 %tmp.701;
+                %tmp.704 = dup %tmp.676;
+                %tmp.705 = aputv %tmp.704 0 %tmp.703;
+                %tmp.706 = newa Array<Numeric> 2;
+                %tmp.707 = 0;
+                %tmp.708 = 0;
+                %tmp.709 = add %tmp.707 %tmp.708;
+                %tmp.710 = 0;
+                %tmp.711 = 0;
+                %tmp.712 = add %tmp.710 %tmp.711;
+                %tmp.713 = 0;
+                %tmp.714 = add %tmp.712 %tmp.713;
+                %tmp.715 = add %tmp.709 %tmp.714;
+                %tmp.716 = 199.68;
+                %tmp.717 = add %tmp.715 %tmp.716;
+                %tmp.718 = dup %tmp.706;
+                %tmp.719 = aputv %tmp.718 0 %tmp.717;
+                %tmp.720 = 0;
+                %tmp.721 = 0;
+                %tmp.722 = add %tmp.720 %tmp.721;
+                %tmp.723 = 0;
+                %tmp.724 = 0;
+                %tmp.725 = add %tmp.723 %tmp.724;
+                %tmp.726 = 0;
+                %tmp.727 = add %tmp.725 %tmp.726;
+                %tmp.728 = add %tmp.722 %tmp.727;
+                %tmp.729 = 178.88;
+                %tmp.730 = add %tmp.728 %tmp.729;
+                %tmp.731 = dup %tmp.719;
+                %tmp.732 = aputv %tmp.731 1 %tmp.730;
+                %tmp.733 = dup %tmp.705;
+                %tmp.734 = aputv %tmp.733 1 %tmp.732;
+                %tmp.735 = newa Array<Numeric> 2;
+                %tmp.736 = 0;
+                %tmp.737 = 0;
+                %tmp.738 = add %tmp.736 %tmp.737;
+                %tmp.739 = 0;
+                %tmp.740 = 0;
+                %tmp.741 = add %tmp.739 %tmp.740;
+                %tmp.742 = 0;
+                %tmp.743 = add %tmp.741 %tmp.742;
+                %tmp.744 = add %tmp.738 %tmp.743;
+                %tmp.745 = 187.2;
+                %tmp.746 = add %tmp.744 %tmp.745;
+                %tmp.747 = dup %tmp.735;
+                %tmp.748 = aputv %tmp.747 0 %tmp.746;
+                %tmp.749 = 0;
+                %tmp.750 = 0;
+                %tmp.751 = add %tmp.749 %tmp.750;
+                %tmp.752 = 0;
+                %tmp.753 = 0;
+                %tmp.754 = add %tmp.752 %tmp.753;
+                %tmp.755 = 0;
+                %tmp.756 = add %tmp.754 %tmp.755;
+                %tmp.757 = add %tmp.751 %tmp.756;
+                %tmp.758 = 178.88;
+                %tmp.759 = add %tmp.757 %tmp.758;
+                %tmp.760 = dup %tmp.748;
+                %tmp.761 = aputv %tmp.760 1 %tmp.759;
+                %tmp.762 = dup %tmp.734;
+                %tmp.763 = aputv %tmp.762 2 %tmp.761;
+                %tmp.764 = newa Array<Numeric> 2;
+                %tmp.765 = 0;
+                %tmp.766 = 0;
+                %tmp.767 = add %tmp.765 %tmp.766;
+                %tmp.768 = 0;
+                %tmp.769 = 0;
+                %tmp.770 = add %tmp.768 %tmp.769;
+                %tmp.771 = 0;
+                %tmp.772 = add %tmp.770 %tmp.771;
+                %tmp.773 = add %tmp.767 %tmp.772;
+                %tmp.774 = 183.04;
+                %tmp.775 = add %tmp.773 %tmp.774;
+                %tmp.776 = dup %tmp.764;
+                %tmp.777 = aputv %tmp.776 0 %tmp.775;
+                %tmp.778 = 0;
+                %tmp.779 = 0;
+                %tmp.780 = add %tmp.778 %tmp.779;
+                %tmp.781 = 0;
+                %tmp.782 = 0;
+                %tmp.783 = add %tmp.781 %tmp.782;
+                %tmp.784 = 0;
+                %tmp.785 = add %tmp.783 %tmp.784;
+                %tmp.786 = add %tmp.780 %tmp.785;
+                %tmp.787 = 187.2;
+                %tmp.788 = add %tmp.786 %tmp.787;
+                %tmp.789 = dup %tmp.777;
+                %tmp.790 = aputv %tmp.789 1 %tmp.788;
+                %tmp.791 = dup %tmp.763;
+                %tmp.792 = aputv %tmp.791 3 %tmp.790;
+                invoke %tmp.674 %tmp.675(%tmp.792);
+f_Programming_Projects_Garminazer_gen_006_B4313_00_source_Rez_mcgen_51_53_stop:
+            }
+        }
+    }
+    [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 92; ]
+    module Fonts {
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 92; ]
+        <init> {
+        }
+    }
+    [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 95; ]
+    module JsonData {
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 95; ]
+        <init> {
+        }
+    }
+    [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 98; ]
+    module Layouts {
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 98; ]
+        <init> {
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 99; ]
+        function MainLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+f_Programming_Projects_Garminazer_gen_006_B4313_00_source_Rez_mcgen_99_74_start:
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 100 12 ]
+            %tmp.1 = newa Array<WatchUi.Drawable> 0;
+            ret %tmp.1;
+f_Programming_Projects_Garminazer_gen_006_B4313_00_source_Rez_mcgen_99_74_stop:
+        }
+    }
+    [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 104; ]
+    module Menus {
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 104; ]
+        <init> {
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 105; ]
+        class MainMenu extends WatchUi.Menu{
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 105; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 105; ]
+            static
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 106; ]
+            function initialize() as Void {
+f_Programming_Projects_Garminazer_gen_006_B4313_00_source_Rez_mcgen_106_34_start:
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 107 16 ]
+                %tmp.2 = getv ? :Menu;
+                %tmp.3 = getv function %tmp.2 :initialize;
+                invoke %tmp.2 %tmp.3();
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 108 16 ]
+                %tmp.4 = self;
+                %tmp.5 = getv function %tmp.4 :addItem;
+                %tmp.6 = getm $.Toybox.WatchUi;
+                %tmp.7 = getv function %tmp.6 :loadResource;
+                %tmp.8 = getm $;
+                %tmp.9 = getv %tmp.8 :Rez;
+                %tmp.10 = getv %tmp.9 :Strings;
+                %tmp.11 = getv %tmp.10 :menu_label_1;
+                %tmp.12 = invoke %tmp.6 %tmp.7(%tmp.11);
+                %tmp.13 = as %tmp.12 String;
+                %tmp.15 = const :item_1;
+                invoke %tmp.4 %tmp.5(%tmp.13, %tmp.15);
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 109 16 ]
+                %tmp.16 = self;
+                %tmp.17 = getv function %tmp.16 :addItem;
+                %tmp.18 = getm $.Toybox.WatchUi;
+                %tmp.19 = getv function %tmp.18 :loadResource;
+                %tmp.20 = getm $;
+                %tmp.21 = getv %tmp.20 :Rez;
+                %tmp.22 = getv %tmp.21 :Strings;
+                %tmp.23 = getv %tmp.22 :menu_label_2;
+                %tmp.24 = invoke %tmp.18 %tmp.19(%tmp.23);
+                %tmp.25 = as %tmp.24 String;
+                %tmp.27 = const :item_2;
+                invoke %tmp.16 %tmp.17(%tmp.25, %tmp.27);
+f_Programming_Projects_Garminazer_gen_006_B4313_00_source_Rez_mcgen_106_34_stop:
+            }
+        }
+    }
+    [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 114; ]
+    module Strings {
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 114; ]
+        <init> {
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 115; @position = 27; initialized = true; ]
+        var menu_label_1 as Symbol;
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 116; @position = 27; initialized = true; ]
+        var menu_label_2 as Symbol;
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 117; @position = 27; initialized = true; ]
+        var prompt as Symbol;
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 118; @position = 27; initialized = true; ]
+        var AppName as Symbol;
+    }
+    [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 121; ]
+    module Styles {
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 121; ]
+        <init> {
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 122; ]
+        module prompt_font_enhanced_readability__body_with_title {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 122; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 123; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 126; ]
+        module system_size__menu_header {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 126; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 127; @position = 18; ]
+            const width as Number = 416;
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 128; @position = 18; ]
+            const height as Number = 130;
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 131; ]
+        module system_loc__hint_button_left_bottom {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 131; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 132; @position = 18; ]
+            const x as Number = 16;
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 133; @position = 18; ]
+            const y as Number = 275;
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 136; ]
+        module prompt_font_enhanced_readability__body_no_title {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 136; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 137; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 140; ]
+        module prompt_loc__body_no_title {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 140; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 141; @position = 18; ]
+            const x as Number = 42;
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 142; @position = 18; ]
+            const y as Number = 42;
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 145; ]
+        module system_icon_dark__about {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 145; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 146; @position = 18; ]
+            const filename as String = "C:\\Users\\ad3st\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2pro47mm\\system_icon_dark__about.svg";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 147; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 148; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 149; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 152; ]
+        module system_icon_light__question {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 152; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 153; @position = 18; ]
+            const filename as String = "C:\\Users\\ad3st\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2pro47mm\\system_icon_light__question.svg";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 154; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 157; ]
+        module system_loc__hint_button_left_top {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 157; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 158; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 161; ]
+        module prompt_font__title {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 161; ]
+            <init> {
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 162 18 ]
+                %tmp.28 = getm $.Toybox.Graphics;
+                %tmp.29 = getv %tmp.28 :TEXT_JUSTIFY_CENTER;
+                %tmp.30 = getm $.Toybox.Graphics;
+                %tmp.31 = getv %tmp.30 :TEXT_JUSTIFY_VCENTER;
+                %tmp.32 = bitor %tmp.29 %tmp.31;
+                putv self :justification %tmp.32;
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 163 18 ]
+                %tmp.33 = getm $.Toybox.Graphics;
+                %tmp.34 = getv %tmp.33 :FONT_XTINY;
+                putv self :font %tmp.34;
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 162; @position = 18; ]
+            const justification;
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 163; @position = 18; ]
+            const font;
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 166; ]
+        module system_icon_dark__discard {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 166; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 167; @position = 18; ]
+            const filename as String = "C:\\Users\\ad3st\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2pro47mm\\system_icon_dark__discard.svg";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 168; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 169; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 170; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 173; ]
+        module system_size__menu_item {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 173; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 174; @position = 18; ]
+            const width as Number = 416;
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 175; @position = 18; ]
+            const height as Number = 109;
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 178; ]
+        module system_color_dark__text {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 178; ]
+            <init> {
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 180 18 ]
+                %tmp.35 = getm $.Toybox.Graphics;
+                %tmp.36 = getv %tmp.35 :COLOR_TRANSPARENT;
+                putv self :background %tmp.36;
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 179; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 180; @position = 18; ]
+            const background;
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 183; ]
+        module system_icon_destructive__discard {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 183; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 184; @position = 18; ]
+            const filename as String = "C:\\Users\\ad3st\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2pro47mm\\system_icon_destructive__discard.svg";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 185; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 188; ]
+        module system_icon_dark__hint_action_menu {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 188; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 189; @position = 18; ]
+            const filename as String = "C:\\Users\\ad3st\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2pro47mm\\system_icon_dark__hint_button_right_top.svg";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 190; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 193; ]
+        module prompt_size__title {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 193; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 194; @position = 18; ]
+            const width as Number = 333;
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 195; @position = 18; ]
+            const height as Number = 63;
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 198; ]
+        module confirmation_font__body {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 198; ]
+            <init> {
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 199 18 ]
+                %tmp.37 = getm $.Toybox.Graphics;
+                %tmp.38 = getv %tmp.37 :TEXT_JUSTIFY_CENTER;
+                %tmp.39 = getm $.Toybox.Graphics;
+                %tmp.40 = getv %tmp.39 :TEXT_JUSTIFY_VCENTER;
+                %tmp.41 = bitor %tmp.38 %tmp.40;
+                putv self :justification %tmp.41;
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 200 18 ]
+                %tmp.42 = getm $.Toybox.Graphics;
+                %tmp.43 = getv %tmp.42 :FONT_TINY;
+                putv self :font %tmp.43;
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 199; @position = 18; ]
+            const justification;
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 200; @position = 18; ]
+            const font;
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 203; ]
+        module system_color_dark__background {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 203; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 204; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 205; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 208; ]
+        module system_icon_destructive__hint_button_left_top {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 208; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 209; @position = 18; ]
+            const filename as String = "C:\\Users\\ad3st\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2pro47mm\\system_icon_destructive__hint_button_left_top.svg";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 210; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 213; ]
+        module system_size__launch_icon {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 213; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 214; @position = 18; ]
+            const scaleX as Number = 60;
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 215; @position = 18; ]
+            const scaleY as Number = 60;
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 216; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 219; ]
+        module confirmation_input__confirm {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 219; ]
+            <init> {
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 220 18 ]
+                %tmp.44 = getm $.Toybox.WatchUi;
+                %tmp.45 = getv %tmp.44 :KEY_ENTER;
+                putv self :button %tmp.45;
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 220; @position = 18; ]
+            const button;
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 223; ]
+        module prompt_font__body_with_title {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 223; ]
+            <init> {
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 224 18 ]
+                %tmp.46 = getm $.Toybox.Graphics;
+                %tmp.47 = getv %tmp.46 :TEXT_JUSTIFY_CENTER;
+                putv self :justification %tmp.47;
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 225 18 ]
+                %tmp.48 = getm $.Toybox.Graphics;
+                %tmp.49 = getv %tmp.48 :FONT_TINY;
+                putv self :font %tmp.49;
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 224; @position = 18; ]
+            const justification;
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 225; @position = 18; ]
+            const font;
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 228; ]
+        module confirmation_loc__body {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 228; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 229; @position = 18; ]
+            const x as Number = 83;
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 230; @position = 18; ]
+            const y as Number = 83;
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 233; ]
+        module system_icon_destructive__hint_button_left_bottom {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 233; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 234; @position = 18; ]
+            const filename as String = "C:\\Users\\ad3st\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2pro47mm\\system_icon_destructive__hint_button_left_bottom.svg";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 235; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 238; ]
+        module prompt_color_dark__background {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 238; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 239; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 240; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 243; ]
+        module system_icon_destructive__hint_action_menu {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 243; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 244; @position = 18; ]
+            const filename as String = "C:\\Users\\ad3st\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2pro47mm\\system_icon_destructive__hint_button_right_top.svg";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 245; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 248; ]
+        module system_loc__hint_action_menu {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 248; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 249; @position = 18; ]
+            const x as Number = 360;
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 250; @position = 18; ]
+            const y as Number = 77;
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 253; ]
+        module confirmation_icon__hint_confirm {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 253; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 254; @position = 18; ]
+            const filename as String = "C:\\Users\\ad3st\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2pro47mm\\confirmation_icon__hint_completion.svg";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 255; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 258; ]
+        module system_loc__hint_button_left_middle {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 258; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 259; @position = 18; ]
+            const x as Number = 4;
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 260; @position = 18; ]
+            const y as Number = 173;
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 263; ]
+        module prompt_size__body_no_title {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 263; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 264; @position = 18; ]
+            const width as Number = 333;
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 265; @position = 18; ]
+            const height as Number = 333;
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 268; ]
+        module system_icon_light__hint_button_left_top {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 268; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 269; @position = 18; ]
+            const filename as String = "C:\\Users\\ad3st\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2pro47mm\\system_icon_light__hint_button_left_top.svg";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 270; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 273; ]
+        module prompt_color_light__background {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 273; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 274; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 275; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 278; ]
+        module confirmation_input__delete {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 278; ]
+            <init> {
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 279 18 ]
+                %tmp.50 = getm $.Toybox.WatchUi;
+                %tmp.51 = getv %tmp.50 :KEY_ENTER;
+                putv self :button %tmp.51;
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 279; @position = 18; ]
+            const button;
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 282; ]
+        module system_icon_dark__hint_button_left_top {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 282; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 283; @position = 18; ]
+            const filename as String = "C:\\Users\\ad3st\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2pro47mm\\system_icon_dark__hint_button_left_top.svg";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 284; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 287; ]
+        module system_input__action_menu {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 287; ]
+            <init> {
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 288 18 ]
+                %tmp.52 = getm $.Toybox.WatchUi;
+                %tmp.53 = getv %tmp.52 :KEY_ENTER;
+                putv self :button %tmp.53;
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 288; @position = 18; ]
+            const button;
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 291; ]
+        module system_icon_light__save {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 291; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 292; @position = 18; ]
+            const filename as String = "C:\\Users\\ad3st\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2pro47mm\\system_icon_light__save.svg";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 293; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 296; ]
+        module prompt_color_light__body {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 296; ]
+            <init> {
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 298 18 ]
+                %tmp.54 = getm $.Toybox.Graphics;
+                %tmp.55 = getv %tmp.54 :COLOR_TRANSPARENT;
+                putv self :background %tmp.55;
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 297; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 298; @position = 18; ]
+            const background;
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 301; ]
+        module system_loc__subwindow {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 301; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 302; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 305; ]
+        module system_icon_light__warning {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 305; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 306; @position = 18; ]
+            const filename as String = "C:\\Users\\ad3st\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2pro47mm\\system_icon_light__warning.svg";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 307; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 310; ]
+        module confirmation_color_light__body {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 310; ]
+            <init> {
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 312 18 ]
+                %tmp.56 = getm $.Toybox.Graphics;
+                %tmp.57 = getv %tmp.56 :COLOR_TRANSPARENT;
+                putv self :background %tmp.57;
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 311; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 312; @position = 18; ]
+            const background;
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 315; ]
+        module confirmation_icon_light__hint_keep {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 315; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 316; @position = 18; ]
+            const filename as String = "C:\\Users\\ad3st\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2pro47mm\\confirmation_icon__hint_keep.svg";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 317; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 320; ]
+        module activity_color_light__background {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 320; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 321; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 322; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 325; ]
+        module system_icon_positive__hint_button_right_top {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 325; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 326; @position = 18; ]
+            const filename as String = "C:\\Users\\ad3st\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2pro47mm\\system_icon_positive__hint_button_right_top.svg";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 327; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 330; ]
+        module system_size__screen {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 330; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 331; @position = 18; ]
+            const width as Number = 416;
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 332; @position = 18; ]
+            const height as Number = 416;
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 335; ]
+        module system_icon_destructive__hint_button_right_bottom {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 335; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 336; @position = 18; ]
+            const filename as String = "C:\\Users\\ad3st\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2pro47mm\\system_icon_destructive__hint_button_right_bottom.svg";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 337; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 340; ]
+        module system_color_light__background {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 340; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 341; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 342; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 345; ]
+        module system_icon_destructive__hint_button_right_top {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 345; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 346; @position = 18; ]
+            const filename as String = "C:\\Users\\ad3st\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2pro47mm\\system_icon_destructive__hint_button_right_top.svg";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 347; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 350; ]
+        module confirmation_loc__hint_confirm {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 350; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 351; @position = 18; ]
+            const x as Number = 338;
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 352; @position = 18; ]
+            const y as Number = 77;
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 355; ]
+        module activity_color_dark__text {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 355; ]
+            <init> {
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 357 18 ]
+                %tmp.58 = getm $.Toybox.Graphics;
+                %tmp.59 = getv %tmp.58 :COLOR_TRANSPARENT;
+                putv self :background %tmp.59;
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 356; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 357; @position = 18; ]
+            const background;
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 360; ]
+        module confirmation_input__keep {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 360; ]
+            <init> {
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 361 18 ]
+                %tmp.60 = getm $.Toybox.WatchUi;
+                %tmp.61 = getv %tmp.60 :KEY_DOWN;
+                putv self :button %tmp.61;
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 361; @position = 18; ]
+            const button;
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 364; ]
+        module prompt_loc__body_with_title {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 364; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 365; @position = 18; ]
+            const x as Number = 42;
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 366; @position = 18; ]
+            const y as Number = 125;
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 369; ]
+        module system_icon_dark__search {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 369; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 370; @position = 18; ]
+            const filename as String = "C:\\Users\\ad3st\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2pro47mm\\system_icon_dark__search.svg";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 371; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 372; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 373; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 376; ]
+        module activity_color_light__text {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 376; ]
+            <init> {
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 378 18 ]
+                %tmp.62 = getm $.Toybox.Graphics;
+                %tmp.63 = getv %tmp.62 :COLOR_TRANSPARENT;
+                putv self :background %tmp.63;
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 377; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 378; @position = 18; ]
+            const background;
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 381; ]
+        module confirmation_icon__hint_keep {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 381; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 382; @position = 18; ]
+            const filename as String = "C:\\Users\\ad3st\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2pro47mm\\confirmation_icon__hint_keep.svg";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 383; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 386; ]
+        module system_icon_dark__save {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 386; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 387; @position = 18; ]
+            const filename as String = "C:\\Users\\ad3st\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2pro47mm\\system_icon_dark__save.svg";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 388; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 389; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 390; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 393; ]
+        module system_icon_destructive__hint_button_left_middle {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 393; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 394; @position = 18; ]
+            const filename as String = "C:\\Users\\ad3st\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2pro47mm\\system_icon_destructive__hint_button_left_middle.svg";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 395; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 398; ]
+        module system_icon_light__search {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 398; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 399; @position = 18; ]
+            const filename as String = "C:\\Users\\ad3st\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2pro47mm\\system_icon_light__search.svg";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 400; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 403; ]
+        module system_icon_dark__hint_button_left_bottom {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 403; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 404; @position = 18; ]
+            const filename as String = "C:\\Users\\ad3st\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2pro47mm\\system_icon_dark__hint_button_left_bottom.svg";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 405; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 408; ]
+        module system_icon_positive__hint_button_left_top {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 408; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 409; @position = 18; ]
+            const filename as String = "C:\\Users\\ad3st\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2pro47mm\\system_icon_positive__hint_button_left_top.svg";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 410; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 413; ]
+        module system_loc__hint_button_right_bottom {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 413; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 414; @position = 18; ]
+            const x as Number = 360;
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 415; @position = 18; ]
+            const y as Number = 275;
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 418; ]
+        module confirmation_icon_dark__hint_reject {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 418; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 419; @position = 18; ]
+            const filename as String = "C:\\Users\\ad3st\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2pro47mm\\confirmation_icon__hint_reject.svg";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 420; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 423; ]
+        module confirmation_color_dark__body {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 423; ]
+            <init> {
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 425 18 ]
+                %tmp.64 = getm $.Toybox.Graphics;
+                %tmp.65 = getv %tmp.64 :COLOR_TRANSPARENT;
+                putv self :background %tmp.65;
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 424; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 425; @position = 18; ]
+            const background;
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 428; ]
+        module confirmation_icon_light__hint_confirm {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 428; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 429; @position = 18; ]
+            const filename as String = "C:\\Users\\ad3st\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2pro47mm\\confirmation_icon__hint_completion.svg";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 430; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 433; ]
+        module prompt_color_dark__title {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 433; ]
+            <init> {
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 435 18 ]
+                %tmp.66 = getm $.Toybox.Graphics;
+                %tmp.67 = getv %tmp.66 :COLOR_TRANSPARENT;
+                putv self :background %tmp.67;
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 434; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 435; @position = 18; ]
+            const background;
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 438; ]
+        module system_icon_destructive__cancel {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 438; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 439; @position = 18; ]
+            const filename as String = "C:\\Users\\ad3st\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2pro47mm\\system_icon_destructive__cancel.svg";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 440; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 443; ]
+        module system_icon_light__hint_button_right_bottom {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 443; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 444; @position = 18; ]
+            const filename as String = "C:\\Users\\ad3st\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2pro47mm\\system_icon_light__hint_button_right_bottom.svg";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 445; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 448; ]
+        module prompt_loc__title {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 448; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 449; @position = 18; ]
+            const x as Number = 42;
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 450; @position = 18; ]
+            const y as Number = 30;
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 453; ]
+        module confirmation_font_enhanced_readability__body {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 453; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 454; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 457; ]
+        module prompt_color_light__title {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 457; ]
+            <init> {
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 459 18 ]
+                %tmp.68 = getm $.Toybox.Graphics;
+                %tmp.69 = getv %tmp.68 :COLOR_TRANSPARENT;
+                putv self :background %tmp.69;
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 458; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 459; @position = 18; ]
+            const background;
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 462; ]
+        module system_icon_dark__hint_button_right_top {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 462; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 463; @position = 18; ]
+            const filename as String = "C:\\Users\\ad3st\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2pro47mm\\system_icon_dark__hint_button_right_top.svg";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 464; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 467; ]
+        module system_icon_dark__hint_button_left_middle {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 467; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 468; @position = 18; ]
+            const filename as String = "C:\\Users\\ad3st\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2pro47mm\\system_icon_dark__hint_button_left_middle.svg";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 469; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 472; ]
+        module confirmation_icon_dark__hint_keep {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 472; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 473; @position = 18; ]
+            const filename as String = "C:\\Users\\ad3st\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2pro47mm\\confirmation_icon__hint_keep.svg";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 474; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 477; ]
+        module system_icon_light__cancel {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 477; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 478; @position = 18; ]
+            const filename as String = "C:\\Users\\ad3st\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2pro47mm\\system_icon_light__cancel.svg";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 479; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 482; ]
+        module confirmation_icon_light__hint_reject {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 482; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 483; @position = 18; ]
+            const filename as String = "C:\\Users\\ad3st\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2pro47mm\\confirmation_icon__hint_reject.svg";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 484; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 487; ]
+        module system_icon_light__about {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 487; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 488; @position = 18; ]
+            const filename as String = "C:\\Users\\ad3st\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2pro47mm\\system_icon_light__about.svg";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 489; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 492; ]
+        module system_size__toast_icon {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 492; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 493; @position = 18; ]
+            const scaleX as Number = 40;
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 494; @position = 18; ]
+            const scaleY as Number = 40;
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 495; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 498; ]
+        module system_icon_dark__hint_button_right_middle {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 498; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 499; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 502; ]
+        module confirmation_icon__hint_reject {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 502; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 503; @position = 18; ]
+            const filename as String = "C:\\Users\\ad3st\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2pro47mm\\confirmation_icon__hint_reject.svg";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 504; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 507; ]
+        module system_icon_light__hint_action_menu {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 507; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 508; @position = 18; ]
+            const filename as String = "C:\\Users\\ad3st\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2pro47mm\\system_icon_light__hint_button_right_top.svg";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 509; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 512; ]
+        module system_icon_light__hint_button_right_middle {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 512; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 513; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 516; ]
+        module system_icon_destructive__hint_button_right_middle {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 516; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 517; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 520; ]
+        module confirmation_loc__hint_reject {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 520; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 521; @position = 18; ]
+            const x as Number = 16;
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 522; @position = 18; ]
+            const y as Number = 275;
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 523; @position = 18; ]
+            const horizontalJustification as String = "left";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 526; ]
+        module confirmation_icon_dark__hint_delete {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 526; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 527; @position = 18; ]
+            const filename as String = "C:\\Users\\ad3st\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2pro47mm\\confirmation_icon__hint_delete.svg";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 528; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 531; ]
+        module activity_color_dark__background {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 531; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 532; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 533; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 536; ]
+        module system_icon_light__hint_button_left_bottom {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 536; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 537; @position = 18; ]
+            const filename as String = "C:\\Users\\ad3st\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2pro47mm\\system_icon_light__hint_button_left_bottom.svg";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 538; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 541; ]
+        module system_icon_positive__hint_button_left_middle {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 541; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 542; @position = 18; ]
+            const filename as String = "C:\\Users\\ad3st\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2pro47mm\\system_icon_positive__hint_button_left_middle.svg";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 543; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 546; ]
+        module system_size__menu_icon {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 546; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 547; @position = 18; ]
+            const scaleX as Number = 60;
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 548; @position = 18; ]
+            const scaleY as Number = 60;
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 549; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 552; ]
+        module system_icon_destructive__warning {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 552; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 553; @position = 18; ]
+            const filename as String = "C:\\Users\\ad3st\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2pro47mm\\system_icon_destructive__warning.svg";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 554; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 557; ]
+        module system_loc__hint_button_right_middle {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 557; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 558; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 561; ]
+        module system_icon_dark__cancel {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 561; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 562; @position = 18; ]
+            const filename as String = "C:\\Users\\ad3st\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2pro47mm\\system_icon_dark__cancel.svg";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 563; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 564; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 565; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 568; ]
+        module prompt_size__body_with_title {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 568; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 569; @position = 18; ]
+            const width as Number = 333;
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 570; @position = 18; ]
+            const height as Number = 250;
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 573; ]
+        module system_loc__hint_button_right_top {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 573; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 574; @position = 18; ]
+            const x as Number = 360;
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 575; @position = 18; ]
+            const y as Number = 77;
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 578; ]
+        module system_color_light__text {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 578; ]
+            <init> {
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 580 18 ]
+                %tmp.70 = getm $.Toybox.Graphics;
+                %tmp.71 = getv %tmp.70 :COLOR_TRANSPARENT;
+                putv self :background %tmp.71;
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 579; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 580; @position = 18; ]
+            const background;
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 583; ]
+        module system_icon_light__check {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 583; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 584; @position = 18; ]
+            const filename as String = "C:\\Users\\ad3st\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2pro47mm\\system_icon_light__check.svg";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 585; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 588; ]
+        module confirmation_input__reject {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 588; ]
+            <init> {
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 589 18 ]
+                %tmp.72 = getm $.Toybox.WatchUi;
+                %tmp.73 = getv %tmp.72 :KEY_DOWN;
+                putv self :button %tmp.73;
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 589; @position = 18; ]
+            const button;
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 592; ]
+        module system_icon_light__revert {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 592; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 593; @position = 18; ]
+            const filename as String = "C:\\Users\\ad3st\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2pro47mm\\system_icon_light__revert.svg";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 594; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 597; ]
+        module system_size__subwindow {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 597; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 598; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 601; ]
+        module system_icon_positive__hint_button_left_bottom {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 601; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 602; @position = 18; ]
+            const filename as String = "C:\\Users\\ad3st\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2pro47mm\\system_icon_positive__hint_button_left_bottom.svg";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 603; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 606; ]
+        module system_icon_dark__check {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 606; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 607; @position = 18; ]
+            const filename as String = "C:\\Users\\ad3st\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2pro47mm\\system_icon_dark__check.svg";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 608; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 609; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 610; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 613; ]
+        module confirmation_loc__hint_keep {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 613; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 614; @position = 18; ]
+            const x as Number = 16;
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 615; @position = 18; ]
+            const y as Number = 275;
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 616; @position = 18; ]
+            const horizontalJustification as String = "left";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 619; ]
+        module confirmation_loc__hint_delete {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 619; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 620; @position = 18; ]
+            const x as Number = 338;
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 621; @position = 18; ]
+            const y as Number = 77;
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 624; ]
+        module system_icon_positive__hint_action_menu {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 624; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 625; @position = 18; ]
+            const filename as String = "C:\\Users\\ad3st\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2pro47mm\\system_icon_positive__hint_button_right_top.svg";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 626; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 629; ]
+        module system_icon_positive__hint_button_right_middle {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 629; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 630; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 633; ]
+        module system_icon_light__hint_button_left_middle {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 633; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 634; @position = 18; ]
+            const filename as String = "C:\\Users\\ad3st\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2pro47mm\\system_icon_light__hint_button_left_middle.svg";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 635; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 638; ]
+        module system_icon_dark__hint_button_right_bottom {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 638; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 639; @position = 18; ]
+            const filename as String = "C:\\Users\\ad3st\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2pro47mm\\system_icon_dark__hint_button_right_bottom.svg";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 640; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 643; ]
+        module system_icon_positive__hint_button_right_bottom {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 643; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 644; @position = 18; ]
+            const filename as String = "C:\\Users\\ad3st\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2pro47mm\\system_icon_positive__hint_button_right_bottom.svg";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 645; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 648; ]
+        module system_icon_dark__revert {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 648; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 649; @position = 18; ]
+            const filename as String = "C:\\Users\\ad3st\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2pro47mm\\system_icon_dark__revert.svg";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 650; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 651; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 652; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 655; ]
+        module confirmation_icon_light__hint_delete {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 655; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 656; @position = 18; ]
+            const filename as String = "C:\\Users\\ad3st\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2pro47mm\\confirmation_icon__hint_delete.svg";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 657; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 660; ]
+        module system_icon_dark__question {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 660; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 661; @position = 18; ]
+            const filename as String = "C:\\Users\\ad3st\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2pro47mm\\system_icon_dark__question.svg";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 662; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 663; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 664; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 667; ]
+        module system_icon_light__discard {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 667; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 668; @position = 18; ]
+            const filename as String = "C:\\Users\\ad3st\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2pro47mm\\system_icon_light__discard.svg";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 669; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 672; ]
+        module device_info {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 672; ]
+            <init> {
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 674 18 ]
+                %tmp.74 = getm $.Toybox.System;
+                %tmp.75 = getv %tmp.74 :SCREEN_SHAPE_ROUND;
+                putv self :screenShape %tmp.75;
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 673; @position = 18; ]
+            const screenWidth as Number = 416;
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 674; @position = 18; ]
+            const screenShape;
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 675; @position = 18; ]
+            const hasNightMode as Boolean = false;
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 676; @position = 18; ]
+            const screenHeight as Number = 416;
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 677; @position = 18; ]
+            const hasTouchScreen as Boolean = true;
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 678; @position = 18; ]
+            const hasEnhancedReadabilityMode as Boolean = false;
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 681; ]
+        module confirmation_icon_dark__hint_confirm {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 681; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 682; @position = 18; ]
+            const filename as String = "C:\\Users\\ad3st\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2pro47mm\\confirmation_icon__hint_completion.svg";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 683; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 686; ]
+        module prompt_font__body_no_title {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 686; ]
+            <init> {
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 687 18 ]
+                %tmp.76 = getm $.Toybox.Graphics;
+                %tmp.77 = getv %tmp.76 :TEXT_JUSTIFY_CENTER;
+                %tmp.78 = getm $.Toybox.Graphics;
+                %tmp.79 = getv %tmp.78 :TEXT_JUSTIFY_VCENTER;
+                %tmp.80 = bitor %tmp.77 %tmp.79;
+                putv self :justification %tmp.80;
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 688 18 ]
+                %tmp.81 = getm $.Toybox.Graphics;
+                %tmp.82 = getv %tmp.81 :FONT_TINY;
+                putv self :font %tmp.82;
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 687; @position = 18; ]
+            const justification;
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 688; @position = 18; ]
+            const font;
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 691; ]
+        module prompt_size__title_icon {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 691; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 692; @position = 18; ]
+            const scaleX as Float = 0.15;
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 693; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 696; ]
+        module system_icon_dark__warning {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 696; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 697; @position = 18; ]
+            const filename as String = "C:\\Users\\ad3st\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2pro47mm\\system_icon_dark__warning.svg";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 698; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 699; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 700; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 703; ]
+        module prompt_loc__title_icon {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 703; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 704; @position = 18; ]
+            const x as Number = 208;
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 705; @position = 18; ]
+            const y as Number = 62;
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 706; @position = 18; ]
+            const horizontalJustification as String = "center";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 707; @position = 18; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 710; ]
+        module prompt_font_enhanced_readability__title {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 710; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 711; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 714; ]
+        module prompt_color_dark__body {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 714; ]
+            <init> {
+[ "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen" 716 18 ]
+                %tmp.83 = getm $.Toybox.Graphics;
+                %tmp.84 = getv %tmp.83 :COLOR_TRANSPARENT;
+                putv self :background %tmp.84;
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 715; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 716; @position = 18; ]
+            const background;
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 719; ]
+        module confirmation_icon__hint_delete {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 719; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 720; @position = 18; ]
+            const filename as String = "C:\\Users\\ad3st\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2pro47mm\\confirmation_icon__hint_delete.svg";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 721; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 724; ]
+        module system_icon_light__hint_button_right_top {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 724; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 725; @position = 18; ]
+            const filename as String = "C:\\Users\\ad3st\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2pro47mm\\system_icon_light__hint_button_right_top.svg";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 726; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 729; ]
+        module confirmation_size__body {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 729; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 730; @position = 18; ]
+            const width as Number = 250;
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 731; @position = 18; ]
+            const height as Number = 250;
+        }
+        [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 734; ]
+        module system_icon_positive__check {
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 734; ]
+            <init> {
+            }
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 735; @position = 18; ]
+            const filename as String = "C:\\Users\\ad3st\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2pro47mm\\system_icon_positive__check.svg";
+            [ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 736; @position = 18; ]
+            const dithering as String = "none";
+        }
+    }
+}
+[ @file = "f:\Programming_Projects\Garminazer\gen\006-B4313-00\source\Rez.mcgen"; @line = 1; ]
+<init> {
+}

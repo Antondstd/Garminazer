@@ -1,0 +1,41 @@
+[ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\ButtonIdEnum.mc"; @line = 1; ]
+class ButtonIdEnum{
+    [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\ButtonIdEnum.mc"; @line = 1; ]
+    <init> {
+    }
+    [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\ButtonIdEnum.mc"; @line = 1; ]
+    static
+    <init> {
+    }
+    [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\ButtonIdEnum.mc"; @line = 2; ]
+    static
+    enum {
+        [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\ButtonIdEnum.mc"; @line = 3; @position = 4; ]
+        PLAY = 0,
+        [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\ButtonIdEnum.mc"; @line = 4; @position = 4; ]
+        PAUSE = 1,
+        [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\ButtonIdEnum.mc"; @line = 5; @position = 4; ]
+        PREVIOUS = 2,
+        [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\ButtonIdEnum.mc"; @line = 6; @position = 4; ]
+        NEXT = 3,
+        [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\ButtonIdEnum.mc"; @line = 7; @position = 4; ]
+        LIKE = 4,
+        [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\ButtonIdEnum.mc"; @line = 8; @position = 4; ]
+        SOUND = 5,
+        [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\ButtonIdEnum.mc"; @line = 9; @position = 4; ]
+        DISLIKE = 6,
+        [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\ButtonIdEnum.mc"; @line = 10; @position = 4; ]
+        SHUFFLE = 7,
+        [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\ButtonIdEnum.mc"; @line = 11; @position = 4; ]
+        REPEAT = 8,
+        [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\ButtonIdEnum.mc"; @line = 13; @position = 4; ]
+        UPDATE = 9,
+        [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\ButtonIdEnum.mc"; @line = 14; @position = 4; ]
+        IMAGE = 10,
+        [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\ButtonIdEnum.mc"; @line = 15; @position = 4; ]
+        SKIP_TO = 11
+    }
+}
+[ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\ButtonIdEnum.mc"; @line = 1; ]
+<init> {
+}

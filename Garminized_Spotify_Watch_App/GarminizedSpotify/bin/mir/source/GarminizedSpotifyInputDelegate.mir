@@ -1,0 +1,30 @@
+[ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyInputDelegate.mc"; @line = 1; ]
+import Toybox.WatchUi;
+[ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyInputDelegate.mc"; @line = 3; ]
+class GarminizedSpotifyInputDelegate extends WatchUi.InputDelegate{
+    [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyInputDelegate.mc"; @line = 3; ]
+    <init> {
+    }
+    [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyInputDelegate.mc"; @line = 3; ]
+    static
+    <init> {
+    }
+    [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyInputDelegate.mc"; @line = 4; ]
+    function onSelectable(selectableEvent as WatchUi.SelectableEvent) {
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyInputDelegate_mc_4_69_start:
+[ "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyInputDelegate.mc" 5 8 ]
+        [ "F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyInputDelegate_mc_4_69_start" "F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyInputDelegate_mc_4_69_stop" ]
+        %selected.1 = local;
+        %tmp.1 = lgetv %selectableEvent;
+        %tmp.2 = getv function %tmp.1 :getInstance;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %selected.1 %tmp.3;
+[ "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyInputDelegate.mc" 8 8 ]
+        %tmp.4 = false;
+        ret %tmp.4;
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyInputDelegate_mc_4_69_stop:
+    }
+}
+[ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyInputDelegate.mc"; @line = 1; ]
+<init> {
+}

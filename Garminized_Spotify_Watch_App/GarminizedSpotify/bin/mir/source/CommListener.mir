@@ -1,0 +1,51 @@
+[ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\CommListener.mc"; @line = 2; ]
+import Toybox.Communications;
+[ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\CommListener.mc"; @line = 5; ]
+class CommListener extends Communications.ConnectionListener{
+    [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\CommListener.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\CommListener.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    //! Constructor
+    [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\CommListener.mc"; @line = 7; ]
+    public
+    function initialize() as Void {
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_CommListener_mc_7_33_start:
+[ "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\CommListener.mc" 8 8 ]
+        %tmp.1 = getm $.Toybox.Communications;
+        %tmp.2 = getv %tmp.1 :ConnectionListener;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_CommListener_mc_7_33_stop:
+    }
+    //! Handle a communications operation completing
+    [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\CommListener.mc"; @line = 12; ]
+    public
+    function onComplete() as Void {
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_CommListener_mc_12_41_start:
+[ "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\CommListener.mc" 13 8 ]
+        %tmp.2 = getv ? :System;
+        %tmp.3 = getv function %tmp.2 :println;
+        %tmp.4 = "Transmit Complete";
+        invoke %tmp.2 %tmp.3(%tmp.4);
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_CommListener_mc_12_41_stop:
+    }
+    //! Handle a communications operation erroring
+    [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\CommListener.mc"; @line = 17; ]
+    public
+    function onError() as Void {
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_CommListener_mc_17_38_start:
+[ "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\CommListener.mc" 18 8 ]
+        %tmp.2 = getv ? :System;
+        %tmp.3 = getv function %tmp.2 :println;
+        %tmp.4 = "Transmit Failed";
+        invoke %tmp.2 %tmp.3(%tmp.4);
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_CommListener_mc_17_38_stop:
+    }
+}
+[ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\CommListener.mc"; @line = 2; ]
+<init> {
+}

@@ -1,0 +1,171 @@
+[ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyApp.mc"; @line = 1; ]
+import Toybox.Application;
+[ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyApp.mc"; @line = 2; ]
+import Toybox.Lang;
+[ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyApp.mc"; @line = 3; ]
+import Toybox.WatchUi;
+[ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyApp.mc"; @line = 4; ]
+import Toybox.Communications;
+[ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyApp.mc"; @line = 6; ]
+class GarminizedSpotifyApp extends Application.AppBase{
+    [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyApp.mc"; @line = 6; ]
+    <init> {
+[ "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyApp.mc" 9 18 ]
+        %tmp.1 = newa Array<String> 5;
+        %tmp.2 = "";
+        %tmp.3 = dup %tmp.1;
+        %tmp.4 = aputv %tmp.3 0 %tmp.2;
+        %tmp.5 = "";
+        %tmp.6 = dup %tmp.4;
+        %tmp.7 = aputv %tmp.6 1 %tmp.5;
+        %tmp.8 = "";
+        %tmp.9 = dup %tmp.7;
+        %tmp.10 = aputv %tmp.9 2 %tmp.8;
+        %tmp.11 = "";
+        %tmp.12 = dup %tmp.10;
+        %tmp.13 = aputv %tmp.12 3 %tmp.11;
+        %tmp.14 = "";
+        %tmp.15 = dup %tmp.13;
+        %tmp.16 = aputv %tmp.15 4 %tmp.14;
+        putv self :_strings %tmp.16;
+    }
+    [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyApp.mc"; @line = 6; ]
+    static
+    <init> {
+    }
+    [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyApp.mc"; @line = 8; @position = 16; ]
+    private
+    var _phoneMethod as (callback(msg as Message) as Void);
+    [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyApp.mc"; @line = 9; @position = 18; ]
+    private
+    const _strings as Array<String>;
+    [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyApp.mc"; @line = 10; @position = 16; ]
+    private
+    var _player;
+    [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyApp.mc"; @line = 12; ]
+    function initialize() as Void {
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyApp_mc_12_26_start:
+[ "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyApp.mc" 13 8 ]
+        %tmp.2 = getv ? :AppBase;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyApp.mc" 15 8 ]
+        %tmp.4 = self;
+        %tmp.5 = getv function %tmp.4 :method;
+        %tmp.7 = const :onPhone;
+        %tmp.8 = invoke %tmp.4 %tmp.5(%tmp.7);
+        putv self :_phoneMethod %tmp.8;
+[ "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyApp.mc" 16 8 ]
+        %tmp.9 = getm $.Toybox.Communications;
+        %tmp.10 = getv function %tmp.9 :registerForPhoneAppMessages;
+        %tmp.12 = getv ? :_phoneMethod;
+        invoke %tmp.9 %tmp.10(%tmp.12);
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyApp_mc_12_26_stop:
+    }
+    [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyApp.mc"; @line = 22; ]
+    function onStart(state as Dictionary or Null) as Void {
+    }
+    [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyApp.mc"; @line = 26; ]
+    function onStop(state as Dictionary or Null) as Void {
+    }
+    [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyApp.mc"; @line = 30; ]
+    function getInitialView() as Array<Views or InputDelegates> or Null {
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyApp_mc_30_65_start:
+[ "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyApp.mc" 31 8 ]
+        %tmp.4 = getv ? :Player;
+        %tmp.1 = newc %tmp.4 ();
+        putv self :_player %tmp.1;
+[ "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyApp.mc" 32 8 ]
+        %tmp.5 = newa Array<Views or InputDelegates> 2;
+        %tmp.9 = getv ? :GarminizedSpotifyView;
+        %tmp.11 = getv ? :_player;
+        %tmp.6 = newc %tmp.9 (%tmp.11);
+        %tmp.12 = dup %tmp.5;
+        %tmp.13 = aputv %tmp.12 0 %tmp.6;
+        %tmp.17 = getv ? :GarminizedSpotifyDelegate;
+        %tmp.19 = getv ? :_player;
+        %tmp.14 = newc %tmp.17 (%tmp.19);
+        %tmp.20 = dup %tmp.13;
+        %tmp.21 = aputv %tmp.20 1 %tmp.14;
+        ret %tmp.21;
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyApp_mc_30_65_stop:
+    }
+    //! Handle a new phone app message
+    //! @param msg The message
+    [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyApp.mc"; @line = 37; ]
+    public
+    function onPhone(msg as PhoneAppMessage) as Void {
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyApp_mc_37_60_start:
+[ "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyApp.mc" 38 8 ]
+        [ "F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyApp_mc_37_60_start" "F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyApp_mc_37_60_stop" ]
+        %data.1 = local;
+        %tmp.1 = lgetv %msg;
+        %tmp.2 = getv %tmp.1 :data;
+        %tmp.3 = as %tmp.2 Dictionary;
+        lputv %data.1 %tmp.3;
+[ "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyApp.mc" 40 8 ]
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyApp_mc_40_8_if_stmt:
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyApp_mc_40_12_begin:
+        %tmp.5 = lgetv %data.1;
+        %tmp.6 = null;
+        %tmp.7 = ne %tmp.5 %tmp.6;
+        %tmp.8 = dup %tmp.7;
+        bf %tmp.8 @F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyApp_mc_40_28_end;
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyApp_mc_40_28_true:
+        %tmp.10 = lgetv %data.1;
+        %tmp.11 = as %tmp.10 { (!Null) };
+        %tmp.13 = getv ? :Dictionary;
+        %tmp.14 = isa %tmp.11 %tmp.13;
+        %tmp.15 = and %tmp.7 %tmp.14;
+        push %tmp.15;
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyApp_mc_40_28_end:
+        %tmp.16 = phi [%tmp.8 @F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyApp_mc_40_12_begin] [%tmp.15 @F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyApp_mc_40_28_true] [%tmp.16 @F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyApp_mc_40_28_end];
+        bf %tmp.16 @F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyApp_mc_40_8_if_end;
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyApp_mc_40_8_if_true:
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyApp_mc_40_56_start:
+[ "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyApp.mc" 41 12 ]
+        %tmp.17 = lgetv %msg;
+        %tmp.18 = getv %tmp.17 :data;
+        %tmp.19 = as %tmp.18 Dictionary;
+        lputv %data.1 %tmp.19;
+[ "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyApp.mc" 42 12 ]
+        [ "F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyApp_mc_40_56_start" "F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyApp_mc_40_56_stop" ]
+        %transmitData.2 = local;
+        %tmp.23 = getv ? :TransmitData;
+        %tmp.20 = newc %tmp.23 ();
+        lputv %transmitData.2 %tmp.20;
+[ "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyApp.mc" 43 12 ]
+        %tmp.24 = lgetv %transmitData.2;
+        %tmp.25 = getv function %tmp.24 :fromDict;
+        %tmp.27 = lgetv %data.1;
+        invoke %tmp.24 %tmp.25(%tmp.27);
+[ "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyApp.mc" 44 12 ]
+        %tmp.29 = getv ? :_player;
+        %tmp.30 = getv function %tmp.29 :operateOnMessage;
+        %tmp.32 = lgetv %transmitData.2;
+        invoke %tmp.29 %tmp.30(%tmp.32);
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyApp_mc_40_56_stop:
+        goto @F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyApp_mc_40_8_if_end;
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyApp_mc_40_8_if_end:
+[ "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyApp.mc" 47 8 ]
+        %tmp.34 = getv ? :System;
+        %tmp.35 = getv function %tmp.34 :println;
+        %tmp.37 = lgetv %data.1;
+        invoke %tmp.34 %tmp.35(%tmp.37);
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyApp_mc_37_60_stop:
+    }
+}
+[ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyApp.mc"; @line = 53; ]
+function getApp() as GarminizedSpotifyApp {
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyApp_mc_53_42_start:
+[ "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyApp.mc" 54 4 ]
+    %tmp.1 = getm $.Toybox.Application;
+    %tmp.2 = getv function %tmp.1 :getApp;
+    %tmp.3 = invoke %tmp.1 %tmp.2();
+    %tmp.4 = as %tmp.3 GarminizedSpotifyApp;
+    ret %tmp.4;
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyApp_mc_53_42_stop:
+}
+[ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyApp.mc"; @line = 1; ]
+<init> {
+}

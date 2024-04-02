@@ -1,0 +1,119 @@
+[ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyDelegate.mc"; @line = 1; ]
+import Toybox.Lang;
+[ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyDelegate.mc"; @line = 2; ]
+import Toybox.WatchUi;
+[ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyDelegate.mc"; @line = 4; ]
+class GarminizedSpotifyDelegate extends WatchUi.BehaviorDelegate{
+    [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyDelegate.mc"; @line = 4; ]
+    <init> {
+    }
+    [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyDelegate.mc"; @line = 4; ]
+    static
+    <init> {
+    }
+    [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyDelegate.mc"; @line = 5; @position = 16; ]
+    private
+    var _player;
+    [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyDelegate.mc"; @line = 7; ]
+    function initialize(player) as Void {
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyDelegate_mc_7_32_start:
+[ "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyDelegate.mc" 8 8 ]
+        %tmp.2 = getv ? :BehaviorDelegate;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyDelegate.mc" 9 8 ]
+        %tmp.5 = lgetv %player;
+        putv self :_player %tmp.5;
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyDelegate_mc_7_32_stop:
+    }
+    [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyDelegate.mc"; @line = 13; ]
+    function onMenu() as Boolean {
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyDelegate_mc_13_33_start:
+[ "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyDelegate.mc" 14 8 ]
+        %tmp.1 = getm $.Toybox.WatchUi;
+        %tmp.2 = getv function %tmp.1 :pushView;
+        %tmp.6 = getv ? :Rez;
+        %tmp.7 = getv %tmp.6 :Menus;
+        %tmp.8 = getv function ? %tmp.7 :MainMenu;
+        %tmp.3 = newc %tmp.8 ();
+        %tmp.12 = getv ? :GarminizedSpotifyMenuDelegate;
+        %tmp.9 = newc %tmp.12 ();
+        %tmp.13 = getm $.Toybox.WatchUi;
+        %tmp.14 = getv %tmp.13 :SLIDE_UP;
+        invoke %tmp.1 %tmp.2(%tmp.3, %tmp.9, %tmp.14);
+[ "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyDelegate.mc" 15 8 ]
+        %tmp.15 = true;
+        ret %tmp.15;
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyDelegate_mc_13_33_stop:
+    }
+    //! Handle the state of a Selectable changing
+    //! @param event The selectable event
+    //! @return true if handled, false otherwise
+    [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyDelegate.mc"; @line = 22; ]
+    public
+    function onSelectable(event as SelectableEvent) as Boolean {
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyDelegate_mc_22_70_start:
+[ "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyDelegate.mc" 23 8 ]
+        [ "F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyDelegate_mc_22_70_start" "F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyDelegate_mc_22_70_stop" ]
+        %instance.1 = local;
+        %tmp.1 = lgetv %event;
+        %tmp.2 = getv function %tmp.1 :getInstance;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %instance.1 %tmp.3;
+[ "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyDelegate.mc" 24 8 ]
+        %tmp.5 = getv ? :System;
+        %tmp.6 = getv function %tmp.5 :println;
+        %tmp.7 = lgetv %event;
+        %tmp.8 = getv function %tmp.7 :getPreviousState;
+        %tmp.9 = invoke %tmp.7 %tmp.8();
+        %tmp.10 = getv function %tmp.9 :toString;
+        %tmp.11 = invoke %tmp.9 %tmp.10();
+        invoke %tmp.5 %tmp.6(%tmp.11);
+[ "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyDelegate.mc" 25 8 ]
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyDelegate_mc_25_8_if_stmt:
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyDelegate_mc_25_12_begin:
+        %tmp.13 = lgetv %instance.1;
+        %tmp.15 = getv ? :CustomButton;
+        %tmp.16 = isa %tmp.13 %tmp.15;
+        %tmp.17 = dup %tmp.16;
+        bf %tmp.17 @F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyDelegate_mc_25_48_end;
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyDelegate_mc_25_48_true:
+        %tmp.18 = lgetv %event;
+        %tmp.19 = getv function %tmp.18 :getPreviousState;
+        %tmp.20 = invoke %tmp.18 %tmp.19();
+        %tmp.22 = const :stateDefault;
+        %tmp.23 = eq %tmp.20 %tmp.22;
+        %tmp.24 = and %tmp.16 %tmp.23;
+        push %tmp.24;
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyDelegate_mc_25_48_end:
+        %tmp.25 = phi [%tmp.17 @F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyDelegate_mc_25_12_begin] [%tmp.24 @F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyDelegate_mc_25_48_true] [%tmp.25 @F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyDelegate_mc_25_48_end];
+        bf %tmp.25 @F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyDelegate_mc_25_8_if_end;
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyDelegate_mc_25_8_if_true:
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyDelegate_mc_25_90_start:
+[ "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyDelegate.mc" 26 12 ]
+        %tmp.27 = getv ? :System;
+        %tmp.28 = getv function %tmp.27 :println;
+        %tmp.29 = "Pressed";
+        invoke %tmp.27 %tmp.28(%tmp.29);
+[ "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyDelegate.mc" 27 12 ]
+        %tmp.31 = getv ? :_player;
+        %tmp.32 = getv function %tmp.31 :onButtonPressed;
+        %tmp.33 = lgetv %instance.1;
+        %tmp.34 = as %tmp.33 { (CustomButton) };
+        %tmp.35 = getv %tmp.34 :buttonId;
+        invoke %tmp.31 %tmp.32(%tmp.35);
+[ "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyDelegate.mc" 28 12 ]
+        %tmp.36 = true;
+        ret %tmp.36;
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyDelegate_mc_25_90_stop:
+        goto @F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyDelegate_mc_25_8_if_end;
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyDelegate_mc_25_8_if_end:
+[ "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyDelegate.mc" 31 8 ]
+        %tmp.37 = false;
+        ret %tmp.37;
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_GarminizedSpotifyDelegate_mc_22_70_stop:
+    }
+}
+[ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\GarminizedSpotifyDelegate.mc"; @line = 1; ]
+<init> {
+}

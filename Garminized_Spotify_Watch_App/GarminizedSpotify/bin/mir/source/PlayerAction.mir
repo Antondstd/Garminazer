@@ -1,0 +1,25 @@
+[ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\PlayerAction.mc"; @line = 1; ]
+class PlayerAction{
+    [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\PlayerAction.mc"; @line = 1; ]
+    <init> {
+    }
+    [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\PlayerAction.mc"; @line = 1; ]
+    static
+    <init> {
+    }
+    [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\PlayerAction.mc"; @line = 2; ]
+    static
+    enum {
+        [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\PlayerAction.mc"; @line = 3; @position = 4; ]
+        UPDATE,
+        [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\PlayerAction.mc"; @line = 4; @position = 4; ]
+        LIKE,
+        [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\PlayerAction.mc"; @line = 5; @position = 4; ]
+        DISLIKE,
+        [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\PlayerAction.mc"; @line = 6; @position = 4; ]
+        IMAGE
+    }
+}
+[ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\PlayerAction.mc"; @line = 1; ]
+<init> {
+}

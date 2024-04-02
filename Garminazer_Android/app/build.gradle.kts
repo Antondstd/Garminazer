@@ -38,9 +38,29 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+    packagingOptions {
+        exclude("META-INF/DEPENDENCIES")
+        exclude("META-INF/LICENSE")
+        exclude("META-INF/LICENSE.txt")
+        exclude("META-INF/license.txt")
+        exclude("META-INF/NOTICE")
+        exclude("META-INF/NOTICE.txt")
+        exclude("META-INF/notice.txt")
+        exclude("META-INF/ASL2.0")
+        exclude("META-INF/INDEX.LIST")
+        exclude("META-INF/io.netty.versions.properties")
+        exclude("META-INF/*.kotlin_module")
+    }
 }
 
 dependencies {
+
+    implementation(files("spotify-app-remote-release-0.8.0.aar"))
+    implementation("com.google.code.gson:gson:2.6.1")
+    implementation("com.garmin.connectiq:ciq-companion-app-sdk:2.0.3@aar")
+    implementation("io.ktor:ktor-server-netty:1.6.4")
+    implementation("io.ktor:ktor-server-core:1.6.4")
+    implementation("io.ktor:ktor-gson:1.6.4")
 
     val nav_version = "2.7.6"
 

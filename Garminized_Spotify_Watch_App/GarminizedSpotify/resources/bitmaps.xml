@@ -1,0 +1,11 @@
+<resources>
+    <bitmap id="play" filename="drawables/play.png" dithering="none" />
+    <bitmap id="pause" filename="drawables/pause.png" dithering="none" />
+    <bitmap id="next" filename="drawables/next.png" dithering="none" />
+    <bitmap id="previous" filename="drawables/previous.png" dithering="none" />
+    <bitmap id="like" filename="drawables/like.png" dithering="none" />
+    <bitmap id="liked" filename="drawables/liked.png" dithering="none" />
+    <bitmap id="repeat" filename="drawables/repeat.png" dithering="none" />
+    <bitmap id="monkey" filename="drawables/monkey.png" dithering="none" />
+    <bitmap id="songCover" filename="drawables/songCover.png" dithering="none" />
+</resources>

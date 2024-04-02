@@ -1,0 +1,34 @@
+[ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\SongInfo.mc"; @line = 1; ]
+import Toybox.Graphics;
+[ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\SongInfo.mc"; @line = 2; ]
+import Toybox.WatchUi;
+[ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\SongInfo.mc"; @line = 3; ]
+import Toybox.Lang;
+[ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\SongInfo.mc"; @line = 5; ]
+class SongInfo{
+    [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\SongInfo.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\SongInfo.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\SongInfo.mc"; @line = 6; @position = 15; ]
+    public
+    var artist as String;
+    [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\SongInfo.mc"; @line = 7; @position = 15; ]
+    public
+    var name as String;
+    [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\SongInfo.mc"; @line = 8; @position = 15; ]
+    public
+    var image as Bitmap;
+    [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\SongInfo.mc"; @line = 9; @position = 15; ]
+    public
+    var length as Number;
+    [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\SongInfo.mc"; @line = 10; @position = 15; ]
+    public
+    var id as String;
+}
+[ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\SongInfo.mc"; @line = 1; ]
+<init> {
+}
