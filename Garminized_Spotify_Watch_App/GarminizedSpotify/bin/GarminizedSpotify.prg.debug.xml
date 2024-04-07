@@ -101,11 +101,11 @@
         <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\Player.mc" id="8" lineNum="304" parent="globals/Player" pc="268437902" symbol="timerCallback"/>
         <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\Player.mc" id="9" lineNum="117" parent="globals/Player" pc="268437919" symbol="getProgressBarPassed"/>
         <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\Player.mc" id="9" lineNum="118" parent="globals/Player" pc="268437921" symbol="getProgressBarPassed"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\Player.mc" id="10" lineNum="361" parent="globals/Player" pc="268437966" symbol="onTextMessage"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\Player.mc" id="10" lineNum="362" parent="globals/Player" pc="268437968" symbol="onTextMessage"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\Player.mc" id="10" lineNum="363" parent="globals/Player" pc="268437972" symbol="onTextMessage"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\Player.mc" id="10" lineNum="364" parent="globals/Player" pc="268437998" symbol="onTextMessage"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\Player.mc" id="10" lineNum="365" parent="globals/Player" pc="268438009" symbol="onTextMessage"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\Player.mc" id="10" lineNum="360" parent="globals/Player" pc="268437966" symbol="onTextMessage"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\Player.mc" id="10" lineNum="361" parent="globals/Player" pc="268437968" symbol="onTextMessage"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\Player.mc" id="10" lineNum="362" parent="globals/Player" pc="268437972" symbol="onTextMessage"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\Player.mc" id="10" lineNum="363" parent="globals/Player" pc="268437998" symbol="onTextMessage"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\Player.mc" id="10" lineNum="364" parent="globals/Player" pc="268438009" symbol="onTextMessage"/>
         <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\Player.mc" id="11" lineNum="149" parent="globals/Player" pc="268438033" symbol="createLikeButton"/>
         <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\Player.mc" id="11" lineNum="151" parent="globals/Player" pc="268438037" symbol="createLikeButton"/>
         <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\Player.mc" id="11" lineNum="154" parent="globals/Player" pc="268438103" symbol="createLikeButton"/>
@@ -168,155 +168,155 @@
         <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\Player.mc" id="18" lineNum="68" parent="globals/Player" pc="268439850" symbol="createInterface"/>
         <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\Player.mc" id="19" lineNum="36" parent="globals/Player" pc="268439853" symbol="setCurrentSong"/>
         <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\Player.mc" id="19" lineNum="37" parent="globals/Player" pc="268439855" symbol="setCurrentSong"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\Player.mc" id="20" lineNum="352" parent="globals/Player" pc="268439866" symbol="onImageMessage"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\Player.mc" id="20" lineNum="353" parent="globals/Player" pc="268439868" symbol="onImageMessage"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\Player.mc" id="20" lineNum="354" parent="globals/Player" pc="268439872" symbol="onImageMessage"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\Player.mc" id="20" lineNum="355" parent="globals/Player" pc="268439898" symbol="onImageMessage"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\Player.mc" id="20" lineNum="356" parent="globals/Player" pc="268439909" symbol="onImageMessage"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\Player.mc" id="20" lineNum="357" parent="globals/Player" pc="268439929" symbol="onImageMessage"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\Player.mc" id="21" lineNum="226" parent="globals/Player" pc="268439949" symbol="createPreviousButton"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\Player.mc" id="21" lineNum="228" parent="globals/Player" pc="268439953" symbol="createPreviousButton"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\Player.mc" id="21" lineNum="231" parent="globals/Player" pc="268440019" symbol="createPreviousButton"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\Player.mc" id="21" lineNum="232" parent="globals/Player" pc="268440027" symbol="createPreviousButton"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\Player.mc" id="21" lineNum="233" parent="globals/Player" pc="268440037" symbol="createPreviousButton"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\Player.mc" id="21" lineNum="246" parent="globals/Player" pc="268440173" symbol="createPreviousButton"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyApp.mc" id="22" lineNum="53" parent="globals" pc="268440202" symbol="getApp"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyApp.mc" id="22" lineNum="54" parent="globals" pc="268440212" symbol="getApp"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="23" lineNum="7" parent="globals/Rez" pc="268440228" symbol="&lt;init&gt;"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\CommListener.mc" id="24" lineNum="5" parent="globals/CommListener" pc="268440252" symbol="&lt;init&gt;"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\CommListener.mc" id="25" lineNum="17" parent="globals/CommListener" pc="268440271" symbol="onError"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\CommListener.mc" id="25" lineNum="18" parent="globals/CommListener" pc="268440273" symbol="onError"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\CommListener.mc" id="26" lineNum="12" parent="globals/CommListener" pc="268440297" symbol="onComplete"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\CommListener.mc" id="26" lineNum="13" parent="globals/CommListener" pc="268440299" symbol="onComplete"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\CommListener.mc" id="27" lineNum="7" parent="globals/CommListener" pc="268440323" symbol="initialize"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\CommListener.mc" id="27" lineNum="8" parent="globals/CommListener" pc="268440325" symbol="initialize"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyView.mc" id="29" lineNum="6" parent="globals/GarminizedSpotifyView" pc="268440348" symbol="&lt;init&gt;"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyView.mc" id="31" lineNum="16" parent="globals/GarminizedSpotifyView" pc="268440367" symbol="onLayout"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyView.mc" id="31" lineNum="22" parent="globals/GarminizedSpotifyView" pc="268440369" symbol="onLayout"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyView.mc" id="31" lineNum="23" parent="globals/GarminizedSpotifyView" pc="268440380" symbol="onLayout"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyView.mc" id="31" lineNum="25" parent="globals/GarminizedSpotifyView" pc="268440397" symbol="onLayout"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyView.mc" id="32" lineNum="10" parent="globals/GarminizedSpotifyView" pc="268440429" symbol="initialize"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyView.mc" id="32" lineNum="11" parent="globals/GarminizedSpotifyView" pc="268440431" symbol="initialize"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyView.mc" id="32" lineNum="12" parent="globals/GarminizedSpotifyView" pc="268440441" symbol="initialize"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyView.mc" id="34" lineNum="68" parent="globals/GarminizedSpotifyView" pc="268440460" symbol="onUpdate"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyView.mc" id="34" lineNum="70" parent="globals/GarminizedSpotifyView" pc="268440464" symbol="onUpdate"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyView.mc" id="34" lineNum="71" parent="globals/GarminizedSpotifyView" pc="268440484" symbol="onUpdate"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyView.mc" id="34" lineNum="72" parent="globals/GarminizedSpotifyView" pc="268440506" symbol="onUpdate"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyView.mc" id="34" lineNum="73" parent="globals/GarminizedSpotifyView" pc="268440564" symbol="onUpdate"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyView.mc" id="34" lineNum="74" parent="globals/GarminizedSpotifyView" pc="268440586" symbol="onUpdate"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyView.mc" id="34" lineNum="75" parent="globals/GarminizedSpotifyView" pc="268440605" symbol="onUpdate"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyView.mc" id="34" lineNum="76" parent="globals/GarminizedSpotifyView" pc="268440651" symbol="onUpdate"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyDelegate.mc" id="36" lineNum="4" parent="globals/GarminizedSpotifyDelegate" pc="268440700" symbol="&lt;init&gt;"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyDelegate.mc" id="37" lineNum="13" parent="globals/GarminizedSpotifyDelegate" pc="268440719" symbol="onMenu"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyDelegate.mc" id="37" lineNum="14" parent="globals/GarminizedSpotifyDelegate" pc="268440721" symbol="onMenu"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyDelegate.mc" id="37" lineNum="15" parent="globals/GarminizedSpotifyDelegate" pc="268440806" symbol="onMenu"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyDelegate.mc" id="38" lineNum="22" parent="globals/GarminizedSpotifyDelegate" pc="268440809" symbol="onSelectable"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyDelegate.mc" id="38" lineNum="23" parent="globals/GarminizedSpotifyDelegate" pc="268440813" symbol="onSelectable"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyDelegate.mc" id="38" lineNum="24" parent="globals/GarminizedSpotifyDelegate" pc="268440826" symbol="onSelectable"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyDelegate.mc" id="38" lineNum="25" parent="globals/GarminizedSpotifyDelegate" pc="268440864" symbol="onSelectable"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyDelegate.mc" id="38" lineNum="26" parent="globals/GarminizedSpotifyDelegate" pc="268440905" symbol="onSelectable"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyDelegate.mc" id="38" lineNum="27" parent="globals/GarminizedSpotifyDelegate" pc="268440928" symbol="onSelectable"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyDelegate.mc" id="38" lineNum="28" parent="globals/GarminizedSpotifyDelegate" pc="268440954" symbol="onSelectable"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyDelegate.mc" id="38" lineNum="31" parent="globals/GarminizedSpotifyDelegate" pc="268440960" symbol="onSelectable"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyDelegate.mc" id="39" lineNum="7" parent="globals/GarminizedSpotifyDelegate" pc="268440963" symbol="initialize"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyDelegate.mc" id="39" lineNum="8" parent="globals/GarminizedSpotifyDelegate" pc="268440965" symbol="initialize"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyDelegate.mc" id="39" lineNum="9" parent="globals/GarminizedSpotifyDelegate" pc="268440983" symbol="initialize"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyMenuDelegate.mc" id="40" lineNum="5" parent="globals/GarminizedSpotifyMenuDelegate" pc="268440994" symbol="&lt;init&gt;"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyMenuDelegate.mc" id="41" lineNum="11" parent="globals/GarminizedSpotifyMenuDelegate" pc="268441013" symbol="onMenuItem"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyMenuDelegate.mc" id="41" lineNum="12" parent="globals/GarminizedSpotifyMenuDelegate" pc="268441015" symbol="onMenuItem"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyMenuDelegate.mc" id="41" lineNum="13" parent="globals/GarminizedSpotifyMenuDelegate" pc="268441026" symbol="onMenuItem"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyMenuDelegate.mc" id="41" lineNum="14" parent="globals/GarminizedSpotifyMenuDelegate" pc="268441050" symbol="onMenuItem"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyMenuDelegate.mc" id="41" lineNum="15" parent="globals/GarminizedSpotifyMenuDelegate" pc="268441061" symbol="onMenuItem"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyMenuDelegate.mc" id="42" lineNum="7" parent="globals/GarminizedSpotifyMenuDelegate" pc="268441086" symbol="initialize"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyMenuDelegate.mc" id="42" lineNum="8" parent="globals/GarminizedSpotifyMenuDelegate" pc="268441088" symbol="initialize"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyApp.mc" id="43" lineNum="6" parent="globals/GarminizedSpotifyApp" pc="268441107" symbol="&lt;init&gt;"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyApp.mc" id="43" lineNum="9" parent="globals/GarminizedSpotifyApp" pc="268441125" symbol="&lt;init&gt;"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyApp.mc" id="44" lineNum="22" parent="globals/GarminizedSpotifyApp" pc="268441205" symbol="onStart"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyApp.mc" id="45" lineNum="30" parent="globals/GarminizedSpotifyApp" pc="268441208" symbol="getInitialView"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyApp.mc" id="45" lineNum="31" parent="globals/GarminizedSpotifyApp" pc="268441210" symbol="getInitialView"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyApp.mc" id="45" lineNum="32" parent="globals/GarminizedSpotifyApp" pc="268441244" symbol="getInitialView"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyApp.mc" id="46" lineNum="12" parent="globals/GarminizedSpotifyApp" pc="268441335" symbol="initialize"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyApp.mc" id="46" lineNum="13" parent="globals/GarminizedSpotifyApp" pc="268441337" symbol="initialize"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyApp.mc" id="46" lineNum="15" parent="globals/GarminizedSpotifyApp" pc="268441355" symbol="initialize"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyApp.mc" id="46" lineNum="16" parent="globals/GarminizedSpotifyApp" pc="268441379" symbol="initialize"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyApp.mc" id="47" lineNum="26" parent="globals/GarminizedSpotifyApp" pc="268441404" symbol="onStop"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyApp.mc" id="48" lineNum="37" parent="globals/GarminizedSpotifyApp" pc="268441407" symbol="onPhone"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyApp.mc" id="48" lineNum="38" parent="globals/GarminizedSpotifyApp" pc="268441411" symbol="onPhone"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyApp.mc" id="48" lineNum="40" parent="globals/GarminizedSpotifyApp" pc="268441421" symbol="onPhone"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyApp.mc" id="48" lineNum="41" parent="globals/GarminizedSpotifyApp" pc="268441449" symbol="onPhone"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyApp.mc" id="48" lineNum="42" parent="globals/GarminizedSpotifyApp" pc="268441459" symbol="onPhone"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyApp.mc" id="48" lineNum="43" parent="globals/GarminizedSpotifyApp" pc="268441487" symbol="onPhone"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyApp.mc" id="48" lineNum="44" parent="globals/GarminizedSpotifyApp" pc="268441501" symbol="onPhone"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyApp.mc" id="48" lineNum="47" parent="globals/GarminizedSpotifyApp" pc="268441524" symbol="onPhone"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\CustomButton.mc" id="49" lineNum="5" parent="globals/CustomButton" pc="268441545" symbol="&lt;init&gt;"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\CustomButton.mc" id="50" lineNum="47" parent="globals/CustomButton" pc="268441564" symbol="changeState"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\CustomButton.mc" id="50" lineNum="48" parent="globals/CustomButton" pc="268441566" symbol="changeState"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\CustomButton.mc" id="50" lineNum="49" parent="globals/CustomButton" pc="268441585" symbol="changeState"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\CustomButton.mc" id="50" lineNum="50" parent="globals/CustomButton" pc="268441614" symbol="changeState"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\CustomButton.mc" id="50" lineNum="52" parent="globals/CustomButton" pc="268441630" symbol="changeState"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\CustomButton.mc" id="50" lineNum="53" parent="globals/CustomButton" pc="268441655" symbol="changeState"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\CustomButton.mc" id="50" lineNum="54" parent="globals/CustomButton" pc="268441680" symbol="changeState"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\CustomButton.mc" id="51" lineNum="29" parent="globals/CustomButton" pc="268441706" symbol="initialize"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\CustomButton.mc" id="51" lineNum="39" parent="globals/CustomButton" pc="268441708" symbol="initialize"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\CustomButton.mc" id="51" lineNum="43" parent="globals/CustomButton" pc="268441728" symbol="initialize"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\CustomButton.mc" id="51" lineNum="44" parent="globals/CustomButton" pc="268441752" symbol="initialize"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="53" lineNum="20" parent="globals/Rez/Drawables/shapes" pc="268441777" symbol="&lt;init&gt;"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="54" lineNum="22" parent="globals/Rez/Drawables/shapes" pc="268441796" symbol="initialize"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="54" lineNum="23" parent="globals/Rez/Drawables/shapes" pc="268441798" symbol="initialize"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="55" lineNum="26" parent="globals/Rez/Drawables/shapes" pc="268441823" symbol="draw"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="55" lineNum="27" parent="globals/Rez/Drawables/shapes" pc="268441825" symbol="draw"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="55" lineNum="28" parent="globals/Rez/Drawables/shapes" pc="268441836" symbol="draw"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="55" lineNum="29" parent="globals/Rez/Drawables/shapes" pc="268441848" symbol="draw"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="55" lineNum="33" parent="globals/Rez/Drawables/shapes" pc="268441855" symbol="draw"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="55" lineNum="34" parent="globals/Rez/Drawables/shapes" pc="268441877" symbol="draw"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="55" lineNum="35" parent="globals/Rez/Drawables/shapes" pc="268441909" symbol="draw"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="55" lineNum="37" parent="globals/Rez/Drawables/shapes" pc="268441931" symbol="draw"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="55" lineNum="38" parent="globals/Rez/Drawables/shapes" pc="268441953" symbol="draw"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="55" lineNum="39" parent="globals/Rez/Drawables/shapes" pc="268441980" symbol="draw"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="55" lineNum="40" parent="globals/Rez/Drawables/shapes" pc="268442002" symbol="draw"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="56" lineNum="44" parent="globals/Rez/Drawables/train" pc="268442035" symbol="&lt;init&gt;"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="57" lineNum="46" parent="globals/Rez/Drawables/train" pc="268442054" symbol="initialize"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="57" lineNum="47" parent="globals/Rez/Drawables/train" pc="268442056" symbol="initialize"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="50" parent="globals/Rez/Drawables/train" pc="268442081" symbol="draw"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="51" parent="globals/Rez/Drawables/train" pc="268442083" symbol="draw"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="52" parent="globals/Rez/Drawables/train" pc="268442094" symbol="draw"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="53" parent="globals/Rez/Drawables/train" pc="268442106" symbol="draw"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="57" parent="globals/Rez/Drawables/train" pc="268442113" symbol="draw"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="58" parent="globals/Rez/Drawables/train" pc="268442135" symbol="draw"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="59" parent="globals/Rez/Drawables/train" pc="268442167" symbol="draw"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="61" parent="globals/Rez/Drawables/train" pc="268442189" symbol="draw"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="62" parent="globals/Rez/Drawables/train" pc="268442211" symbol="draw"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="63" parent="globals/Rez/Drawables/train" pc="268442238" symbol="draw"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="64" parent="globals/Rez/Drawables/train" pc="268442260" symbol="draw"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="65" parent="globals/Rez/Drawables/train" pc="268442287" symbol="draw"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="66" parent="globals/Rez/Drawables/train" pc="268442309" symbol="draw"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="67" parent="globals/Rez/Drawables/train" pc="268442341" symbol="draw"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="68" parent="globals/Rez/Drawables/train" pc="268442363" symbol="draw"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="69" parent="globals/Rez/Drawables/train" pc="268442400" symbol="draw"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="70" parent="globals/Rez/Drawables/train" pc="268442422" symbol="draw"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="71" parent="globals/Rez/Drawables/train" pc="268442449" symbol="draw"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="72" parent="globals/Rez/Drawables/train" pc="268442471" symbol="draw"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="73" parent="globals/Rez/Drawables/train" pc="268442498" symbol="draw"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="74" parent="globals/Rez/Drawables/train" pc="268442520" symbol="draw"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="75" parent="globals/Rez/Drawables/train" pc="268442557" symbol="draw"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="76" parent="globals/Rez/Drawables/train" pc="268442579" symbol="draw"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="77" parent="globals/Rez/Drawables/train" pc="268442717" symbol="draw"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="78" parent="globals/Rez/Drawables/train" pc="268442739" symbol="draw"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="79" parent="globals/Rez/Drawables/train" pc="268442771" symbol="draw"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="80" parent="globals/Rez/Drawables/train" pc="268442793" symbol="draw"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="81" parent="globals/Rez/Drawables/train" pc="268442825" symbol="draw"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="82" parent="globals/Rez/Drawables/train" pc="268442847" symbol="draw"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="83" parent="globals/Rez/Drawables/train" pc="268442879" symbol="draw"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="84" parent="globals/Rez/Drawables/train" pc="268442901" symbol="draw"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="85" parent="globals/Rez/Drawables/train" pc="268442933" symbol="draw"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="86" parent="globals/Rez/Drawables/train" pc="268442955" symbol="draw"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="59" lineNum="98" parent="globals/Rez/Layouts" pc="268443134" symbol="MainLayout"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="59" lineNum="99" parent="globals/Rez/Layouts" pc="268443144" symbol="MainLayout"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="60" lineNum="104" parent="globals/Rez/Menus/MainMenu" pc="268443151" symbol="&lt;init&gt;"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="61" lineNum="105" parent="globals/Rez/Menus/MainMenu" pc="268443170" symbol="initialize"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="61" lineNum="106" parent="globals/Rez/Menus/MainMenu" pc="268443172" symbol="initialize"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="61" lineNum="107" parent="globals/Rez/Menus/MainMenu" pc="268443190" symbol="initialize"/>
-        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="61" lineNum="108" parent="globals/Rez/Menus/MainMenu" pc="268443246" symbol="initialize"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\Player.mc" id="20" lineNum="351" parent="globals/Player" pc="268439866" symbol="onImageMessage"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\Player.mc" id="20" lineNum="352" parent="globals/Player" pc="268439868" symbol="onImageMessage"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\Player.mc" id="20" lineNum="353" parent="globals/Player" pc="268439872" symbol="onImageMessage"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\Player.mc" id="20" lineNum="354" parent="globals/Player" pc="268439898" symbol="onImageMessage"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\Player.mc" id="20" lineNum="355" parent="globals/Player" pc="268439919" symbol="onImageMessage"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\Player.mc" id="20" lineNum="356" parent="globals/Player" pc="268439939" symbol="onImageMessage"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\Player.mc" id="21" lineNum="226" parent="globals/Player" pc="268439959" symbol="createPreviousButton"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\Player.mc" id="21" lineNum="228" parent="globals/Player" pc="268439963" symbol="createPreviousButton"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\Player.mc" id="21" lineNum="231" parent="globals/Player" pc="268440029" symbol="createPreviousButton"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\Player.mc" id="21" lineNum="232" parent="globals/Player" pc="268440037" symbol="createPreviousButton"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\Player.mc" id="21" lineNum="233" parent="globals/Player" pc="268440047" symbol="createPreviousButton"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\Player.mc" id="21" lineNum="246" parent="globals/Player" pc="268440183" symbol="createPreviousButton"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyApp.mc" id="22" lineNum="53" parent="globals" pc="268440212" symbol="getApp"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyApp.mc" id="22" lineNum="54" parent="globals" pc="268440222" symbol="getApp"/>
+        <entry filename="f:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="23" lineNum="7" parent="globals/Rez" pc="268440238" symbol="&lt;init&gt;"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\CommListener.mc" id="24" lineNum="5" parent="globals/CommListener" pc="268440262" symbol="&lt;init&gt;"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\CommListener.mc" id="25" lineNum="17" parent="globals/CommListener" pc="268440281" symbol="onError"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\CommListener.mc" id="25" lineNum="18" parent="globals/CommListener" pc="268440283" symbol="onError"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\CommListener.mc" id="26" lineNum="12" parent="globals/CommListener" pc="268440307" symbol="onComplete"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\CommListener.mc" id="26" lineNum="13" parent="globals/CommListener" pc="268440309" symbol="onComplete"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\CommListener.mc" id="27" lineNum="7" parent="globals/CommListener" pc="268440333" symbol="initialize"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\CommListener.mc" id="27" lineNum="8" parent="globals/CommListener" pc="268440335" symbol="initialize"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyView.mc" id="29" lineNum="6" parent="globals/GarminizedSpotifyView" pc="268440358" symbol="&lt;init&gt;"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyView.mc" id="31" lineNum="16" parent="globals/GarminizedSpotifyView" pc="268440377" symbol="onLayout"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyView.mc" id="31" lineNum="22" parent="globals/GarminizedSpotifyView" pc="268440379" symbol="onLayout"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyView.mc" id="31" lineNum="23" parent="globals/GarminizedSpotifyView" pc="268440390" symbol="onLayout"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyView.mc" id="31" lineNum="25" parent="globals/GarminizedSpotifyView" pc="268440407" symbol="onLayout"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyView.mc" id="32" lineNum="10" parent="globals/GarminizedSpotifyView" pc="268440439" symbol="initialize"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyView.mc" id="32" lineNum="11" parent="globals/GarminizedSpotifyView" pc="268440441" symbol="initialize"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyView.mc" id="32" lineNum="12" parent="globals/GarminizedSpotifyView" pc="268440451" symbol="initialize"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyView.mc" id="34" lineNum="68" parent="globals/GarminizedSpotifyView" pc="268440470" symbol="onUpdate"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyView.mc" id="34" lineNum="70" parent="globals/GarminizedSpotifyView" pc="268440474" symbol="onUpdate"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyView.mc" id="34" lineNum="71" parent="globals/GarminizedSpotifyView" pc="268440494" symbol="onUpdate"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyView.mc" id="34" lineNum="72" parent="globals/GarminizedSpotifyView" pc="268440516" symbol="onUpdate"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyView.mc" id="34" lineNum="73" parent="globals/GarminizedSpotifyView" pc="268440574" symbol="onUpdate"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyView.mc" id="34" lineNum="74" parent="globals/GarminizedSpotifyView" pc="268440596" symbol="onUpdate"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyView.mc" id="34" lineNum="75" parent="globals/GarminizedSpotifyView" pc="268440615" symbol="onUpdate"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyView.mc" id="34" lineNum="76" parent="globals/GarminizedSpotifyView" pc="268440661" symbol="onUpdate"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyDelegate.mc" id="36" lineNum="4" parent="globals/GarminizedSpotifyDelegate" pc="268440710" symbol="&lt;init&gt;"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyDelegate.mc" id="37" lineNum="13" parent="globals/GarminizedSpotifyDelegate" pc="268440729" symbol="onMenu"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyDelegate.mc" id="37" lineNum="14" parent="globals/GarminizedSpotifyDelegate" pc="268440731" symbol="onMenu"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyDelegate.mc" id="37" lineNum="15" parent="globals/GarminizedSpotifyDelegate" pc="268440816" symbol="onMenu"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyDelegate.mc" id="38" lineNum="22" parent="globals/GarminizedSpotifyDelegate" pc="268440819" symbol="onSelectable"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyDelegate.mc" id="38" lineNum="23" parent="globals/GarminizedSpotifyDelegate" pc="268440823" symbol="onSelectable"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyDelegate.mc" id="38" lineNum="24" parent="globals/GarminizedSpotifyDelegate" pc="268440836" symbol="onSelectable"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyDelegate.mc" id="38" lineNum="25" parent="globals/GarminizedSpotifyDelegate" pc="268440874" symbol="onSelectable"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyDelegate.mc" id="38" lineNum="26" parent="globals/GarminizedSpotifyDelegate" pc="268440915" symbol="onSelectable"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyDelegate.mc" id="38" lineNum="27" parent="globals/GarminizedSpotifyDelegate" pc="268440938" symbol="onSelectable"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyDelegate.mc" id="38" lineNum="28" parent="globals/GarminizedSpotifyDelegate" pc="268440964" symbol="onSelectable"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyDelegate.mc" id="38" lineNum="31" parent="globals/GarminizedSpotifyDelegate" pc="268440970" symbol="onSelectable"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyDelegate.mc" id="39" lineNum="7" parent="globals/GarminizedSpotifyDelegate" pc="268440973" symbol="initialize"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyDelegate.mc" id="39" lineNum="8" parent="globals/GarminizedSpotifyDelegate" pc="268440975" symbol="initialize"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyDelegate.mc" id="39" lineNum="9" parent="globals/GarminizedSpotifyDelegate" pc="268440993" symbol="initialize"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyMenuDelegate.mc" id="40" lineNum="5" parent="globals/GarminizedSpotifyMenuDelegate" pc="268441004" symbol="&lt;init&gt;"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyMenuDelegate.mc" id="41" lineNum="11" parent="globals/GarminizedSpotifyMenuDelegate" pc="268441023" symbol="onMenuItem"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyMenuDelegate.mc" id="41" lineNum="12" parent="globals/GarminizedSpotifyMenuDelegate" pc="268441025" symbol="onMenuItem"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyMenuDelegate.mc" id="41" lineNum="13" parent="globals/GarminizedSpotifyMenuDelegate" pc="268441036" symbol="onMenuItem"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyMenuDelegate.mc" id="41" lineNum="14" parent="globals/GarminizedSpotifyMenuDelegate" pc="268441060" symbol="onMenuItem"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyMenuDelegate.mc" id="41" lineNum="15" parent="globals/GarminizedSpotifyMenuDelegate" pc="268441071" symbol="onMenuItem"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyMenuDelegate.mc" id="42" lineNum="7" parent="globals/GarminizedSpotifyMenuDelegate" pc="268441096" symbol="initialize"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyMenuDelegate.mc" id="42" lineNum="8" parent="globals/GarminizedSpotifyMenuDelegate" pc="268441098" symbol="initialize"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyApp.mc" id="43" lineNum="6" parent="globals/GarminizedSpotifyApp" pc="268441117" symbol="&lt;init&gt;"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyApp.mc" id="43" lineNum="9" parent="globals/GarminizedSpotifyApp" pc="268441135" symbol="&lt;init&gt;"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyApp.mc" id="44" lineNum="22" parent="globals/GarminizedSpotifyApp" pc="268441215" symbol="onStart"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyApp.mc" id="45" lineNum="30" parent="globals/GarminizedSpotifyApp" pc="268441218" symbol="getInitialView"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyApp.mc" id="45" lineNum="31" parent="globals/GarminizedSpotifyApp" pc="268441220" symbol="getInitialView"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyApp.mc" id="45" lineNum="32" parent="globals/GarminizedSpotifyApp" pc="268441254" symbol="getInitialView"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyApp.mc" id="46" lineNum="12" parent="globals/GarminizedSpotifyApp" pc="268441345" symbol="initialize"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyApp.mc" id="46" lineNum="13" parent="globals/GarminizedSpotifyApp" pc="268441347" symbol="initialize"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyApp.mc" id="46" lineNum="15" parent="globals/GarminizedSpotifyApp" pc="268441365" symbol="initialize"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyApp.mc" id="46" lineNum="16" parent="globals/GarminizedSpotifyApp" pc="268441389" symbol="initialize"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyApp.mc" id="47" lineNum="26" parent="globals/GarminizedSpotifyApp" pc="268441414" symbol="onStop"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyApp.mc" id="48" lineNum="37" parent="globals/GarminizedSpotifyApp" pc="268441417" symbol="onPhone"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyApp.mc" id="48" lineNum="38" parent="globals/GarminizedSpotifyApp" pc="268441421" symbol="onPhone"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyApp.mc" id="48" lineNum="40" parent="globals/GarminizedSpotifyApp" pc="268441431" symbol="onPhone"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyApp.mc" id="48" lineNum="41" parent="globals/GarminizedSpotifyApp" pc="268441459" symbol="onPhone"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyApp.mc" id="48" lineNum="42" parent="globals/GarminizedSpotifyApp" pc="268441469" symbol="onPhone"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyApp.mc" id="48" lineNum="43" parent="globals/GarminizedSpotifyApp" pc="268441497" symbol="onPhone"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyApp.mc" id="48" lineNum="44" parent="globals/GarminizedSpotifyApp" pc="268441511" symbol="onPhone"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\GarminizedSpotifyApp.mc" id="48" lineNum="47" parent="globals/GarminizedSpotifyApp" pc="268441534" symbol="onPhone"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\CustomButton.mc" id="49" lineNum="5" parent="globals/CustomButton" pc="268441555" symbol="&lt;init&gt;"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\CustomButton.mc" id="50" lineNum="47" parent="globals/CustomButton" pc="268441574" symbol="changeState"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\CustomButton.mc" id="50" lineNum="48" parent="globals/CustomButton" pc="268441576" symbol="changeState"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\CustomButton.mc" id="50" lineNum="49" parent="globals/CustomButton" pc="268441595" symbol="changeState"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\CustomButton.mc" id="50" lineNum="50" parent="globals/CustomButton" pc="268441624" symbol="changeState"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\CustomButton.mc" id="50" lineNum="52" parent="globals/CustomButton" pc="268441640" symbol="changeState"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\CustomButton.mc" id="50" lineNum="53" parent="globals/CustomButton" pc="268441665" symbol="changeState"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\CustomButton.mc" id="50" lineNum="54" parent="globals/CustomButton" pc="268441690" symbol="changeState"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\CustomButton.mc" id="51" lineNum="29" parent="globals/CustomButton" pc="268441716" symbol="initialize"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\CustomButton.mc" id="51" lineNum="39" parent="globals/CustomButton" pc="268441718" symbol="initialize"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\CustomButton.mc" id="51" lineNum="43" parent="globals/CustomButton" pc="268441738" symbol="initialize"/>
+        <entry filename="F:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\source\\CustomButton.mc" id="51" lineNum="44" parent="globals/CustomButton" pc="268441762" symbol="initialize"/>
+        <entry filename="f:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="53" lineNum="20" parent="globals/Rez/Drawables/shapes" pc="268441787" symbol="&lt;init&gt;"/>
+        <entry filename="f:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="54" lineNum="22" parent="globals/Rez/Drawables/shapes" pc="268441806" symbol="initialize"/>
+        <entry filename="f:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="54" lineNum="23" parent="globals/Rez/Drawables/shapes" pc="268441808" symbol="initialize"/>
+        <entry filename="f:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="55" lineNum="26" parent="globals/Rez/Drawables/shapes" pc="268441833" symbol="draw"/>
+        <entry filename="f:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="55" lineNum="27" parent="globals/Rez/Drawables/shapes" pc="268441835" symbol="draw"/>
+        <entry filename="f:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="55" lineNum="28" parent="globals/Rez/Drawables/shapes" pc="268441846" symbol="draw"/>
+        <entry filename="f:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="55" lineNum="29" parent="globals/Rez/Drawables/shapes" pc="268441858" symbol="draw"/>
+        <entry filename="f:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="55" lineNum="33" parent="globals/Rez/Drawables/shapes" pc="268441865" symbol="draw"/>
+        <entry filename="f:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="55" lineNum="34" parent="globals/Rez/Drawables/shapes" pc="268441887" symbol="draw"/>
+        <entry filename="f:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="55" lineNum="35" parent="globals/Rez/Drawables/shapes" pc="268441919" symbol="draw"/>
+        <entry filename="f:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="55" lineNum="37" parent="globals/Rez/Drawables/shapes" pc="268441941" symbol="draw"/>
+        <entry filename="f:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="55" lineNum="38" parent="globals/Rez/Drawables/shapes" pc="268441963" symbol="draw"/>
+        <entry filename="f:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="55" lineNum="39" parent="globals/Rez/Drawables/shapes" pc="268441990" symbol="draw"/>
+        <entry filename="f:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="55" lineNum="40" parent="globals/Rez/Drawables/shapes" pc="268442012" symbol="draw"/>
+        <entry filename="f:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="56" lineNum="44" parent="globals/Rez/Drawables/train" pc="268442045" symbol="&lt;init&gt;"/>
+        <entry filename="f:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="57" lineNum="46" parent="globals/Rez/Drawables/train" pc="268442064" symbol="initialize"/>
+        <entry filename="f:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="57" lineNum="47" parent="globals/Rez/Drawables/train" pc="268442066" symbol="initialize"/>
+        <entry filename="f:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="50" parent="globals/Rez/Drawables/train" pc="268442091" symbol="draw"/>
+        <entry filename="f:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="51" parent="globals/Rez/Drawables/train" pc="268442093" symbol="draw"/>
+        <entry filename="f:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="52" parent="globals/Rez/Drawables/train" pc="268442104" symbol="draw"/>
+        <entry filename="f:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="53" parent="globals/Rez/Drawables/train" pc="268442116" symbol="draw"/>
+        <entry filename="f:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="57" parent="globals/Rez/Drawables/train" pc="268442123" symbol="draw"/>
+        <entry filename="f:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="58" parent="globals/Rez/Drawables/train" pc="268442145" symbol="draw"/>
+        <entry filename="f:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="59" parent="globals/Rez/Drawables/train" pc="268442177" symbol="draw"/>
+        <entry filename="f:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="61" parent="globals/Rez/Drawables/train" pc="268442199" symbol="draw"/>
+        <entry filename="f:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="62" parent="globals/Rez/Drawables/train" pc="268442221" symbol="draw"/>
+        <entry filename="f:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="63" parent="globals/Rez/Drawables/train" pc="268442248" symbol="draw"/>
+        <entry filename="f:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="64" parent="globals/Rez/Drawables/train" pc="268442270" symbol="draw"/>
+        <entry filename="f:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="65" parent="globals/Rez/Drawables/train" pc="268442297" symbol="draw"/>
+        <entry filename="f:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="66" parent="globals/Rez/Drawables/train" pc="268442319" symbol="draw"/>
+        <entry filename="f:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="67" parent="globals/Rez/Drawables/train" pc="268442351" symbol="draw"/>
+        <entry filename="f:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="68" parent="globals/Rez/Drawables/train" pc="268442373" symbol="draw"/>
+        <entry filename="f:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="69" parent="globals/Rez/Drawables/train" pc="268442410" symbol="draw"/>
+        <entry filename="f:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="70" parent="globals/Rez/Drawables/train" pc="268442432" symbol="draw"/>
+        <entry filename="f:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="71" parent="globals/Rez/Drawables/train" pc="268442459" symbol="draw"/>
+        <entry filename="f:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="72" parent="globals/Rez/Drawables/train" pc="268442481" symbol="draw"/>
+        <entry filename="f:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="73" parent="globals/Rez/Drawables/train" pc="268442508" symbol="draw"/>
+        <entry filename="f:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="74" parent="globals/Rez/Drawables/train" pc="268442530" symbol="draw"/>
+        <entry filename="f:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="75" parent="globals/Rez/Drawables/train" pc="268442567" symbol="draw"/>
+        <entry filename="f:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="76" parent="globals/Rez/Drawables/train" pc="268442589" symbol="draw"/>
+        <entry filename="f:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="77" parent="globals/Rez/Drawables/train" pc="268442727" symbol="draw"/>
+        <entry filename="f:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="78" parent="globals/Rez/Drawables/train" pc="268442749" symbol="draw"/>
+        <entry filename="f:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="79" parent="globals/Rez/Drawables/train" pc="268442781" symbol="draw"/>
+        <entry filename="f:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="80" parent="globals/Rez/Drawables/train" pc="268442803" symbol="draw"/>
+        <entry filename="f:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="81" parent="globals/Rez/Drawables/train" pc="268442835" symbol="draw"/>
+        <entry filename="f:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="82" parent="globals/Rez/Drawables/train" pc="268442857" symbol="draw"/>
+        <entry filename="f:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="83" parent="globals/Rez/Drawables/train" pc="268442889" symbol="draw"/>
+        <entry filename="f:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="84" parent="globals/Rez/Drawables/train" pc="268442911" symbol="draw"/>
+        <entry filename="f:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="85" parent="globals/Rez/Drawables/train" pc="268442943" symbol="draw"/>
+        <entry filename="f:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="58" lineNum="86" parent="globals/Rez/Drawables/train" pc="268442965" symbol="draw"/>
+        <entry filename="f:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="59" lineNum="98" parent="globals/Rez/Layouts" pc="268443144" symbol="MainLayout"/>
+        <entry filename="f:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="59" lineNum="99" parent="globals/Rez/Layouts" pc="268443154" symbol="MainLayout"/>
+        <entry filename="f:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="60" lineNum="104" parent="globals/Rez/Menus/MainMenu" pc="268443161" symbol="&lt;init&gt;"/>
+        <entry filename="f:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="61" lineNum="105" parent="globals/Rez/Menus/MainMenu" pc="268443180" symbol="initialize"/>
+        <entry filename="f:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="61" lineNum="106" parent="globals/Rez/Menus/MainMenu" pc="268443182" symbol="initialize"/>
+        <entry filename="f:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="61" lineNum="107" parent="globals/Rez/Menus/MainMenu" pc="268443200" symbol="initialize"/>
+        <entry filename="f:\\Programming_Projects\\Garminazer\\Garminized_Spotify_Watch_App\\GarminizedSpotify\\bin\\gen\\006-B4313-00\\source\\Rez.mcgen" id="61" lineNum="108" parent="globals/Rez/Menus/MainMenu" pc="268443256" symbol="initialize"/>
     </pcToLineNum>
     <symbolTable>
         <entry field="true" id="21" symbol="_imageUrl"/>
@@ -505,26 +505,26 @@
         <entry arg="true" endPc="268439852" name="dc" stackId="1" startPc="268439474"/>
         <entry endPc="268439852" name="_list" stackId="2" startPc="268439478"/>
         <entry arg="true" endPc="268439865" name="song" stackId="1" startPc="268439853"/>
-        <entry arg="true" endPc="268439948" name="responseCode" stackId="1" startPc="268439866"/>
-        <entry arg="true" endPc="268439948" name="data" stackId="2" startPc="268439866"/>
-        <entry endPc="268440201" name="defaultImage" stackId="1" startPc="268439953"/>
-        <entry endPc="268440201" name="imagesList" stackId="2" startPc="268439953"/>
-        <entry endPc="268440201" name="options" stackId="3" startPc="268439953"/>
-        <entry arg="true" endPc="268440428" name="dc" stackId="1" startPc="268440367"/>
-        <entry arg="true" endPc="268440459" name="player" stackId="1" startPc="268440429"/>
-        <entry arg="true" endPc="268440699" name="dc" stackId="1" startPc="268440460"/>
-        <entry endPc="268440698" name="passed" stackId="2" startPc="268440464"/>
-        <entry arg="true" endPc="268440962" name="event" stackId="1" startPc="268440809"/>
-        <entry endPc="268440962" name="instance" stackId="2" startPc="268440813"/>
-        <entry arg="true" endPc="268440993" name="player" stackId="1" startPc="268440963"/>
-        <entry arg="true" endPc="268441085" name="item" stackId="1" startPc="268441013"/>
-        <entry arg="true" endPc="268441544" name="msg" stackId="1" startPc="268441407"/>
-        <entry endPc="268441543" name="data" stackId="2" startPc="268441411"/>
-        <entry endPc="268441520" name="transmitData" stackId="3" startPc="268441449"/>
-        <entry arg="true" endPc="268441776" name="options" stackId="1" startPc="268441706"/>
-        <entry arg="true" endPc="268442034" name="dc" stackId="1" startPc="268441823"/>
-        <entry arg="true" endPc="268443133" name="dc" stackId="1" startPc="268442081"/>
-        <entry arg="true" endPc="268443150" name="dc" stackId="1" startPc="268443134"/>
+        <entry arg="true" endPc="268439958" name="responseCode" stackId="1" startPc="268439866"/>
+        <entry arg="true" endPc="268439958" name="data" stackId="2" startPc="268439866"/>
+        <entry endPc="268440211" name="defaultImage" stackId="1" startPc="268439963"/>
+        <entry endPc="268440211" name="imagesList" stackId="2" startPc="268439963"/>
+        <entry endPc="268440211" name="options" stackId="3" startPc="268439963"/>
+        <entry arg="true" endPc="268440438" name="dc" stackId="1" startPc="268440377"/>
+        <entry arg="true" endPc="268440469" name="player" stackId="1" startPc="268440439"/>
+        <entry arg="true" endPc="268440709" name="dc" stackId="1" startPc="268440470"/>
+        <entry endPc="268440708" name="passed" stackId="2" startPc="268440474"/>
+        <entry arg="true" endPc="268440972" name="event" stackId="1" startPc="268440819"/>
+        <entry endPc="268440972" name="instance" stackId="2" startPc="268440823"/>
+        <entry arg="true" endPc="268441003" name="player" stackId="1" startPc="268440973"/>
+        <entry arg="true" endPc="268441095" name="item" stackId="1" startPc="268441023"/>
+        <entry arg="true" endPc="268441554" name="msg" stackId="1" startPc="268441417"/>
+        <entry endPc="268441553" name="data" stackId="2" startPc="268441421"/>
+        <entry endPc="268441530" name="transmitData" stackId="3" startPc="268441459"/>
+        <entry arg="true" endPc="268441786" name="options" stackId="1" startPc="268441716"/>
+        <entry arg="true" endPc="268442044" name="dc" stackId="1" startPc="268441833"/>
+        <entry arg="true" endPc="268443143" name="dc" stackId="1" startPc="268442091"/>
+        <entry arg="true" endPc="268443160" name="dc" stackId="1" startPc="268443144"/>
     </localVars>
     <annotations>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
@@ -635,34 +635,34 @@
             <param id="song"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439948" name="onImageMessage" parent="Player" startPc="268439866">
+        <functionEntry accessMode="public" endPc="268439958" name="onImageMessage" parent="Player" startPc="268439866">
             <param id="responseCode"/>
             <param id="data"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440201" name="createPreviousButton" parent="Player" startPc="268439949">
+        <functionEntry accessMode="public" endPc="268440211" name="createPreviousButton" parent="Player" startPc="268439959">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440227" name="getApp" startPc="268440202">
+        <functionEntry accessMode="public" endPc="268440237" name="getApp" startPc="268440212">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440251" name="&lt;init&gt;" parent="Rez" startPc="268440228">
+        <functionEntry accessMode="public" endPc="268440261" name="&lt;init&gt;" parent="Rez" startPc="268440238">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440270" name="&lt;init&gt;" parent="CommListener" startPc="268440252">
+        <functionEntry accessMode="public" endPc="268440280" name="&lt;init&gt;" parent="CommListener" startPc="268440262">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440296" name="onError" parent="CommListener" startPc="268440271">
+        <functionEntry accessMode="public" endPc="268440306" name="onError" parent="CommListener" startPc="268440281">
             <documentation>
                 <![CDATA[<div class="description"> Handle a communications operation erroring<br/></div>]]>
             </documentation>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440322" name="onComplete" parent="CommListener" startPc="268440297">
+        <functionEntry accessMode="public" endPc="268440332" name="onComplete" parent="CommListener" startPc="268440307">
             <documentation>
                 <![CDATA[<div class="description"> Handle a communications operation completing<br/></div>]]>
             </documentation>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440347" name="initialize" parent="CommListener" startPc="268440323">
+        <functionEntry accessMode="public" endPc="268440357" name="initialize" parent="CommListener" startPc="268440333">
             <documentation>
                 <![CDATA[<div class="description"> Constructor<br/></div>]]>
             </documentation>
@@ -673,24 +673,24 @@
         <functionEntry accessMode="public" name="initialize" parent="PlayerAction">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440366" name="&lt;init&gt;" parent="GarminizedSpotifyView" startPc="268440348">
+        <functionEntry accessMode="public" endPc="268440376" name="&lt;init&gt;" parent="GarminizedSpotifyView" startPc="268440358">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="onShow" parent="GarminizedSpotifyView">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440428" name="onLayout" parent="GarminizedSpotifyView" startPc="268440367">
+        <functionEntry accessMode="public" endPc="268440438" name="onLayout" parent="GarminizedSpotifyView" startPc="268440377">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440459" name="initialize" parent="GarminizedSpotifyView" startPc="268440429">
+        <functionEntry accessMode="public" endPc="268440469" name="initialize" parent="GarminizedSpotifyView" startPc="268440439">
             <param id="player"/>
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="onHide" parent="GarminizedSpotifyView">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440699" name="onUpdate" parent="GarminizedSpotifyView" startPc="268440460">
+        <functionEntry accessMode="public" endPc="268440709" name="onUpdate" parent="GarminizedSpotifyView" startPc="268440470">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
@@ -700,62 +700,62 @@
         <functionEntry accessMode="public" name="initialize" parent="ButtonIdEnum">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440718" name="&lt;init&gt;" parent="GarminizedSpotifyDelegate" startPc="268440700">
+        <functionEntry accessMode="public" endPc="268440728" name="&lt;init&gt;" parent="GarminizedSpotifyDelegate" startPc="268440710">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440808" name="onMenu" parent="GarminizedSpotifyDelegate" startPc="268440719">
+        <functionEntry accessMode="public" endPc="268440818" name="onMenu" parent="GarminizedSpotifyDelegate" startPc="268440729">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440962" name="onSelectable" parent="GarminizedSpotifyDelegate" startPc="268440809">
+        <functionEntry accessMode="public" endPc="268440972" name="onSelectable" parent="GarminizedSpotifyDelegate" startPc="268440819">
             <param id="event"/>
             <documentation>
                 <![CDATA[<div class="description"> Handle the state of a Selectable changing<br/> <div class="param"> event The selectable event</div><br/> <div class="returns">Returns  true if handled, false otherwise</div><br/></div>]]>
             </documentation>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440993" name="initialize" parent="GarminizedSpotifyDelegate" startPc="268440963">
+        <functionEntry accessMode="public" endPc="268441003" name="initialize" parent="GarminizedSpotifyDelegate" startPc="268440973">
             <param id="player"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268441012" name="&lt;init&gt;" parent="GarminizedSpotifyMenuDelegate" startPc="268440994">
+        <functionEntry accessMode="public" endPc="268441022" name="&lt;init&gt;" parent="GarminizedSpotifyMenuDelegate" startPc="268441004">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268441085" name="onMenuItem" parent="GarminizedSpotifyMenuDelegate" startPc="268441013">
+        <functionEntry accessMode="public" endPc="268441095" name="onMenuItem" parent="GarminizedSpotifyMenuDelegate" startPc="268441023">
             <param id="item"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268441106" name="initialize" parent="GarminizedSpotifyMenuDelegate" startPc="268441086">
+        <functionEntry accessMode="public" endPc="268441116" name="initialize" parent="GarminizedSpotifyMenuDelegate" startPc="268441096">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268441204" name="&lt;init&gt;" parent="GarminizedSpotifyApp" startPc="268441107">
+        <functionEntry accessMode="public" endPc="268441214" name="&lt;init&gt;" parent="GarminizedSpotifyApp" startPc="268441117">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268441207" name="onStart" parent="GarminizedSpotifyApp" startPc="268441205">
+        <functionEntry accessMode="public" endPc="268441217" name="onStart" parent="GarminizedSpotifyApp" startPc="268441215">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268441334" name="getInitialView" parent="GarminizedSpotifyApp" startPc="268441208">
+        <functionEntry accessMode="public" endPc="268441344" name="getInitialView" parent="GarminizedSpotifyApp" startPc="268441218">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268441403" name="initialize" parent="GarminizedSpotifyApp" startPc="268441335">
+        <functionEntry accessMode="public" endPc="268441413" name="initialize" parent="GarminizedSpotifyApp" startPc="268441345">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268441406" name="onStop" parent="GarminizedSpotifyApp" startPc="268441404">
+        <functionEntry accessMode="public" endPc="268441416" name="onStop" parent="GarminizedSpotifyApp" startPc="268441414">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268441544" name="onPhone" parent="GarminizedSpotifyApp" startPc="268441407">
+        <functionEntry accessMode="public" endPc="268441554" name="onPhone" parent="GarminizedSpotifyApp" startPc="268441417">
             <param id="msg"/>
             <documentation>
                 <![CDATA[<div class="description"> Handle a new phone app message<br/> <div class="param"> msg The message</div><br/></div>]]>
             </documentation>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268441563" name="&lt;init&gt;" parent="CustomButton" startPc="268441545">
+        <functionEntry accessMode="public" endPc="268441573" name="&lt;init&gt;" parent="CustomButton" startPc="268441555">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268441705" name="changeState" parent="CustomButton" startPc="268441564">
+        <functionEntry accessMode="public" endPc="268441715" name="changeState" parent="CustomButton" startPc="268441574">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268441776" name="initialize" parent="CustomButton" startPc="268441706">
+        <functionEntry accessMode="public" endPc="268441786" name="initialize" parent="CustomButton" startPc="268441716">
             <param id="options"/>
             <documentation>
                 <![CDATA[<div class="description"> Constructor<br/> <div class="param"> options A Dictionary of check box options</div><br/> @option options :locX The x-coordinate for the check box<br/> @option options :locY The y-coordinate for the check box<br/> @option options :width The clip width of the check box<br/> @option options :height The clip height of the check box<br/> @option options :stateDefault The Drawable or color to display in default state<br/> @option options :stateHighlighted The Drawable or color to display in highlighted state<br/> @option options :stateSelected The Drawable or color to display in selected state<br/> @option options :stateDisabled The Drawable or color to display in disabled state<br/> @option options :stateHighlightedSelected The Drawable or color to display in the<br/>  selected and highlighted state<br/></div>]]>
@@ -785,34 +785,34 @@
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268441795" name="&lt;init&gt;" parent="shapes" startPc="268441777">
+        <functionEntry accessMode="public" endPc="268441805" name="&lt;init&gt;" parent="shapes" startPc="268441787">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268441822" name="initialize" parent="shapes" startPc="268441796">
+        <functionEntry accessMode="public" endPc="268441832" name="initialize" parent="shapes" startPc="268441806">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268442034" name="draw" parent="shapes" startPc="268441823">
+        <functionEntry accessMode="public" endPc="268442044" name="draw" parent="shapes" startPc="268441833">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268442053" name="&lt;init&gt;" parent="train" startPc="268442035">
+        <functionEntry accessMode="public" endPc="268442063" name="&lt;init&gt;" parent="train" startPc="268442045">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268442080" name="initialize" parent="train" startPc="268442054">
+        <functionEntry accessMode="public" endPc="268442090" name="initialize" parent="train" startPc="268442064">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268443133" name="draw" parent="train" startPc="268442081">
+        <functionEntry accessMode="public" endPc="268443143" name="draw" parent="train" startPc="268442091">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268443150" name="MainLayout" parent="Layouts" startPc="268443134">
+        <functionEntry accessMode="public" endPc="268443160" name="MainLayout" parent="Layouts" startPc="268443144">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268443169" name="&lt;init&gt;" parent="MainMenu" startPc="268443151">
+        <functionEntry accessMode="public" endPc="268443179" name="&lt;init&gt;" parent="MainMenu" startPc="268443161">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268443302" name="initialize" parent="MainMenu" startPc="268443170">
+        <functionEntry accessMode="public" endPc="268443312" name="initialize" parent="MainMenu" startPc="268443180">
             <documentation/>
         </functionEntry>
     </functions>

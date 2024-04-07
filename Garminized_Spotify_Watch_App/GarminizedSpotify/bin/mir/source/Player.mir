@@ -1091,7 +1091,7 @@ F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify
 [ "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\Player.mc" 276 12 ]
         %tmp.114 = lgetv %data.5;
         %tmp.116 = getv ? :ButtonIdEnum;
-        %tmp.117 = getv %tmp.116 :PREVIOUS;
+        %tmp.117 = getv %tmp.116 :NEXT;
         putv %tmp.114 :_action %tmp.117;
 [ "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\Player.mc" 277 12 ]
         %tmp.118 = getm $.Toybox.Communications;
@@ -1449,73 +1449,85 @@ F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify
         invoke %tmp.125 %tmp.126(%tmp.130, %tmp.131, %tmp.148, %tmp.153);
 F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_Player_mc_307_66_stop:
     }
-    [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\Player.mc"; @line = 352; ]
+    [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\Player.mc"; @line = 351; ]
     public
     function onImageMessage(responseCode, data) {
-F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_Player_mc_352_55_start:
-[ "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\Player.mc" 353 8 ]
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_Player_mc_351_55_start:
+[ "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\Player.mc" 352 8 ]
         %tmp.2 = lgetv %responseCode;
         lputv %responseCode %tmp.2;
-[ "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\Player.mc" 354 8 ]
+[ "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\Player.mc" 353 8 ]
         %tmp.4 = getv ? :System;
         %tmp.5 = getv function %tmp.4 :println;
         %tmp.6 = "Image responsecode: ";
         %tmp.8 = lgetv %responseCode;
         %tmp.9 = add %tmp.6 %tmp.8;
         invoke %tmp.4 %tmp.5(%tmp.9);
-[ "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\Player.mc" 355 8 ]
-F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_Player_mc_355_8_if_stmt:
+[ "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\Player.mc" 354 8 ]
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_Player_mc_354_8_if_stmt:
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_Player_mc_354_12_begin:
         %tmp.11 = lgetv %responseCode;
         %tmp.12 = 200;
         %tmp.13 = eq %tmp.11 %tmp.12;
-        bf %tmp.13 @F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_Player_mc_355_8_if_end;
-F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_Player_mc_355_8_if_true:
-F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_Player_mc_355_33_start:
+        %tmp.14 = dup %tmp.13;
+        bf %tmp.14 @F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_Player_mc_354_35_end;
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_Player_mc_354_35_true:
+        %tmp.16 = lgetv %data;
+        %tmp.17 = null;
+        %tmp.18 = ne %tmp.16 %tmp.17;
+        %tmp.19 = and %tmp.13 %tmp.18;
+        push %tmp.19;
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_Player_mc_354_35_end:
+        %tmp.20 = phi [%tmp.14 @F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_Player_mc_354_12_begin] [%tmp.19 @F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_Player_mc_354_35_true] [%tmp.20 @F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_Player_mc_354_35_end];
+        bf %tmp.20 @F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_Player_mc_354_8_if_end;
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_Player_mc_354_8_if_true:
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_Player_mc_354_49_start:
+[ "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\Player.mc" 355 12 ]
+        %tmp.22 = getv ? :currentImage;
+        %tmp.23 = getv function %tmp.22 :setBitmap;
+        %tmp.25 = lgetv %data;
+        %tmp.26 = as %tmp.25 { (!Null) };
+        invoke %tmp.22 %tmp.23(%tmp.26);
 [ "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\Player.mc" 356 12 ]
-        %tmp.15 = getv ? :currentImage;
-        %tmp.16 = getv function %tmp.15 :setBitmap;
-        %tmp.18 = lgetv %data;
-        invoke %tmp.15 %tmp.16(%tmp.18);
-[ "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\Player.mc" 357 12 ]
-        %tmp.19 = getm $.Toybox.WatchUi;
-        %tmp.20 = getv function %tmp.19 :requestUpdate;
-        invoke %tmp.19 %tmp.20();
-F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_Player_mc_355_33_stop:
-        goto @F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_Player_mc_355_8_if_end;
-F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_Player_mc_355_8_if_end:
-F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_Player_mc_352_55_stop:
+        %tmp.27 = getm $.Toybox.WatchUi;
+        %tmp.28 = getv function %tmp.27 :requestUpdate;
+        invoke %tmp.27 %tmp.28();
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_Player_mc_354_49_stop:
+        goto @F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_Player_mc_354_8_if_end;
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_Player_mc_354_8_if_end:
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_Player_mc_351_55_stop:
     }
-    [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\Player.mc"; @line = 361; ]
+    [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\Player.mc"; @line = 360; ]
     public
     function onTextMessage(responseCode, data) {
-F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_Player_mc_361_54_start:
-[ "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\Player.mc" 362 8 ]
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_Player_mc_360_54_start:
+[ "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\Player.mc" 361 8 ]
         %tmp.2 = lgetv %responseCode;
         lputv %responseCode %tmp.2;
-[ "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\Player.mc" 363 8 ]
+[ "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\Player.mc" 362 8 ]
         %tmp.4 = getv ? :System;
         %tmp.5 = getv function %tmp.4 :println;
         %tmp.6 = "Text responsecode: ";
         %tmp.8 = lgetv %responseCode;
         %tmp.9 = add %tmp.6 %tmp.8;
         invoke %tmp.4 %tmp.5(%tmp.9);
-[ "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\Player.mc" 364 8 ]
-F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_Player_mc_364_8_if_stmt:
+[ "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\Player.mc" 363 8 ]
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_Player_mc_363_8_if_stmt:
         %tmp.11 = lgetv %responseCode;
         %tmp.12 = 200;
         %tmp.13 = eq %tmp.11 %tmp.12;
-        bf %tmp.13 @F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_Player_mc_364_8_if_end;
-F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_Player_mc_364_8_if_true:
-F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_Player_mc_364_33_start:
-[ "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\Player.mc" 365 12 ]
+        bf %tmp.13 @F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_Player_mc_363_8_if_end;
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_Player_mc_363_8_if_true:
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_Player_mc_363_33_start:
+[ "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\Player.mc" 364 12 ]
         %tmp.15 = getv ? :currentSongName;
         %tmp.16 = getv function %tmp.15 :setText;
         %tmp.18 = lgetv %data;
         invoke %tmp.15 %tmp.16(%tmp.18);
-F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_Player_mc_364_33_stop:
-        goto @F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_Player_mc_364_8_if_end;
-F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_Player_mc_364_8_if_end:
-F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_Player_mc_361_54_stop:
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_Player_mc_363_33_stop:
+        goto @F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_Player_mc_363_8_if_end;
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_Player_mc_363_8_if_end:
+F_Programming_Projects_Garminazer_Garminized_Spotify_Watch_App_GarminizedSpotify_source_Player_mc_360_54_stop:
     }
 }
 [ @file = "F:\Programming_Projects\Garminazer\Garminized_Spotify_Watch_App\GarminizedSpotify\source\Player.mc"; @line = 1; ]

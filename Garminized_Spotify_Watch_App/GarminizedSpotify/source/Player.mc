@@ -273,7 +273,7 @@ class Player{
         }
         if (buttonId == ButtonIdEnum.NEXT){
             var data = new TransmitData();
-            data._action = ButtonIdEnum.PREVIOUS;
+            data._action = ButtonIdEnum.NEXT;
             Communications.transmit(data.makeDictToTransmit(), null, listener);
         }
         if (buttonId == ButtonIdEnum.LIKE){
@@ -346,13 +346,12 @@ class Player{
             {   :maxWidth => 120,
                 :maxHeight => 120,
                 :packingFormat => Communications.PACKING_FORMAT_JPG},method(:onImageMessage));
-        // }
     }
 
     public function onImageMessage(responseCode, data) {
         responseCode = responseCode;
         System.println("Image responsecode: " + responseCode);
-        if (responseCode == 200) {
+        if (responseCode == 200 && data != null) {
             currentImage.setBitmap(data);
             WatchUi.requestUpdate();
         }

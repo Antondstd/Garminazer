@@ -55,6 +55,9 @@ android {
 
 dependencies {
 
+    // Kotlin + coroutines
+    implementation("androidx.work:work-runtime-ktx:2.9.0")
+
     implementation(files("spotify-app-remote-release-0.8.0.aar"))
     implementation("com.google.code.gson:gson:2.6.1")
     implementation("com.garmin.connectiq:ciq-companion-app-sdk:2.0.3@aar")
